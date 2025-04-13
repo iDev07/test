@@ -1,1 +1,0 @@
-(function($){samo.payqr=function(){var text=$('#qrData').val().replace(/^[\s\u3000]+|[\s\u3000]+$/g,'');var qr=qrcode(0,'H');qr.addData(text,'Byte');qr.make();$('#qrcode').html(qr.createImgTag());};})(samo.jQuery);

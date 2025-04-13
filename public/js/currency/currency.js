@@ -1,1 +1,0 @@
-'use strict';(function($){samo.currency=function(){$('#currency').find('.rate').on('click',function(){let data=$(this).data();$.getScript(samo.ROUTES.currency.url+$.param({samo_action:'history','CURRENCY':data.currency.currency,'CURRENCYBASE':data.currency.base}),samo.init_rate_chart);});};$(samo.currency);})(samo.jQuery);

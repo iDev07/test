@@ -1,1 +1,0 @@
-(function($){samo.partner_discount=function(){};$(samo.partner_discount);})(samo.jQuery);

@@ -1,1 +1,0 @@
-(function($){samo.paykeeper=function(){samo.acquiring.work('paykeeper');};})(samo.jQuery);

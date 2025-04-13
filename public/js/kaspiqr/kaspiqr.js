@@ -1,1 +1,0 @@
-(function($){samo.kaspiqr=function(){samo.acquiring.work('kaspiqr');};})(samo.jQuery);

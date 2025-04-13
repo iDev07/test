@@ -1,1 +1,0 @@
-samo.rsbank=function(){samo.acquiring.work('rsbank');};

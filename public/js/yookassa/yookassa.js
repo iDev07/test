@@ -1,1 +1,0 @@
-(function($){samo.yookassa=function(){samo.acquiring.work('yookassa');};})(samo.jQuery);
