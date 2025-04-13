@@ -1,0 +1,1 @@
+(function($){samo.mkb=function(){samo.acquiring.work('mkb');};})(samo.jQuery);

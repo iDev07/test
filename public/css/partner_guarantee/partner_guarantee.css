@@ -1,0 +1,4 @@
+#partner_guarantee .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}

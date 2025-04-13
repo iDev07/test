@@ -1,0 +1,83 @@
+#reports {
+    width: var(--main-container-width);
+    margin: 0 auto;
+    padding: 10px;
+}
+.samo_container #reports .left_column {
+    height: 35px;
+    min-width: 160px;
+}
+
+#reports .reportInfo {
+    width: 100%;
+}
+
+#reports .reportTable td:last-child, #reports .reportInfo td:last-child {
+    width: 100%;
+    padding-right: 20px;
+}
+
+#reports .noReports {
+    text-align: center;
+    font-weight: bold;
+}
+
+#reports select {
+    width: 100%;
+}
+
+#reports .reportParams input.frm-input.date {
+    width: 102px;
+}
+
+#reports .getReport {
+    display: none;
+}
+
+#reports button.getReport {
+    margin: 10px auto;
+}
+
+#reports .downloadLinkBlock {
+    text-align: center;
+}
+
+/* odd row color */
+#reports .downloadLinkBlock table tr:nth-child(2n) td {
+    background-color: var(--row-odd-bgcolor);
+    border-color: var(--row-border-color);
+}
+#reports .downloadLinkBlock table tr:nth-child(2n+1) td {
+    background-color: var(--row-even-bgcolor);
+    border-color: var(--row-border-color);
+}
+/* regular row color */
+#reports .downloadLinkBlock table td {
+    background-color: var(--row-even-bgcolor);
+    border-color: #888888;
+    border-width: 0px;
+    border-style: solid;
+    border-bottom-width: 1px;
+}
+
+#reports textarea {
+    height: 140px;
+}
+
+#reports .panel .panel {
+    box-shadow: none;
+}
+
+#reports fieldset fieldset {
+    padding: 0;
+}
+
+#reports fieldset tr td {
+    padding-bottom: 8px;
+}
+
+#reports .reportInfo + .reportParams .reportForm {
+    margin-top: 10px;
+    border-top: dashed 1px #aaa;
+    padding-top: 10px;
+}

@@ -1,0 +1,16 @@
+#modalContainer {
+    width: 700px;
+    height: 400px;
+}
+
+.pqr-area {
+    width: 100%;
+}
+
+#qrData {
+    display: none;
+}
+
+.qrcode {
+    margin: 15px;
+}

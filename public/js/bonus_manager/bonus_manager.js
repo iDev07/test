@@ -1,0 +1,12 @@
+(function($){samo.payClaimWithBonuses=function(claimId,elementSelector,minBonusValue,maxBonusValue,payRoundSum,buttonSelector){let button=$(buttonSelector);let inputBonusValue=Number($(elementSelector).val());if(!checkFloatNumber(inputBonusValue)){$.notify({text:samo.i18n('BONUS_MANAGER_INVALID_BONUS_VALUE'),type:'message',disappearTime:2000});return false;}
+if(payRoundSum===1&&!checkIntegerNumber(inputBonusValue)){$.notify({text:samo.i18n('BONUS_MANAGER_PAY_ROUND_SUM'),type:'message',disappearTime:2000});return false;}
+if(inputBonusValue<minBonusValue){$.notify({text:samo.i18n('BONUS_MANAGER_INVALID_BONUS_VALUE'),type:'message',disappearTime:2000});return false;}
+if(inputBonusValue>maxBonusValue){$.notify({text:samo.i18n('BONUS_MANAGER_EXCEED_BONUS_VALUE'),type:'message',disappearTime:2000});return false;}
+if(confirm(samo.i18n('BONUS_MANAGER_PAY_BONUS_CONFIRM'))){button.prop('disabled',true);$.post(samo.ROUTES.bonus_manager.url+$.param({samo_action:'payClaimWithBonuses'}),{claimId:claimId,bonusValue:inputBonusValue},function(){if(samo.responseSuccess===true){$.notify({text:samo.i18n('BONUS_MANAGER_BONUS_PAYED_SUCCESS'),type:'message',disappearTime:2000});setTimeout(function(){location.reload();},3000);}else{$.notify({text:samo.i18n('BONUS_MANAGER_BONUS_PAYED_FAILED'),type:'error',permanent:true});button.prop('disabled',false);}})}}
+samo.toggleContent=function(element,elementSelector,textOne,textTwo){let button=$(element);toggleButtonText(button,textOne,textTwo);$(elementSelector).toggle('slow');}
+samo.bonusValueCheck=function(element){let bonusValue=$(element).val();if(!checkFloatNumber(bonusValue)){$.notify({text:samo.i18n('NUM_NOTIFY'),type:'message',disappearTime:2000});}}
+samo.showBonusClaimsModal=function(){$.getScript(samo.ROUTES.bonus_manager.url+$.param({samo_action:'getBonusClaims'}));}
+samo.changeCurrency=function(element,managerId){let currencySelectedId=$(element).val();window.location.href=samo.ROUTES.bonus_manager.url+'CURRENCY_SELECTED_ID='+currencySelectedId+'&CURRENCY_MANAGER_ID='+managerId;}
+function toggleButtonText(button,textOne,textTwo){button.text(button.text()===textTwo?textOne:textTwo);}
+function checkFloatNumber(number){let floatNumber=parseFloat(number);return!(floatNumber!=number||floatNumber<0);}
+function checkIntegerNumber(number){return(number^0)===number;}})(samo.jQuery);

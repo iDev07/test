@@ -1,0 +1,7 @@
+#partner_curator .ui-icon {
+    display: inline-block;
+}
+#partner_curator {
+    margin: auto;
+    width: var(--main-container-width);
+}

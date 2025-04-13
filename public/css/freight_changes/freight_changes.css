@@ -1,0 +1,41 @@
+#freight_changes {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+.fr-ch-townfrom {
+    width: 10%;
+}
+
+.fr-ch-townfrom.title {
+    width: 5%;
+}
+
+.fr-ch-tour {
+    width: 30%;
+}
+
+.fr-ch-tour.title {
+    width: 6%;
+}
+
+.fr-ch-state {
+    width: 10%;
+}
+
+.fr-ch-state.title {
+    width: 5%;
+}
+
+.fr-ch-date {
+    width: 15%;
+}
+
+.fr-ch-date.title {
+    width: 5%;
+}
+
+#freight_changes .fr-ch-refresh {
+    width: 15%;
+    text-align: end;
+}

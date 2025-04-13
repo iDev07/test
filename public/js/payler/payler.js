@@ -1,0 +1,1 @@
+(function($){samo.payler=function(){samo.acquiring.work('payler');};})(samo.jQuery);

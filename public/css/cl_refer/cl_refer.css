@@ -1,0 +1,932 @@
+#cl_refer .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#cl_refer .w100 {
+    width: 100px !important;
+}
+
+#cl_refer .cl input {
+    width: 100%;
+}
+
+#cl_refer .cl_refer_result {
+    margin-top: 1em;
+}
+
+#cl_refer td.cl_alink, #cl_refer .block_cancel_claim {
+    line-height: 1.4em;
+    vertical-align: top;
+    border-bottom-width: 0px;
+}
+
+#cl_refer div.toggle_orders claim-order{
+    CURSOR: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cl_refer td.orders {
+    vertical-align: top;
+}
+
+#cl_refer table.tbl_orders, #cl_refer table.tbl_peoples {
+    width: 100% !important;
+}
+
+#cl_refer table.tbl_orders img {
+    border: 0px;
+}
+
+#cl_refer .resultset {
+    padding: 0 1em;
+}
+
+#cl_refer .PARTNER {
+    width: 55em;
+    margin: auto;
+}
+
+#cl_refer .PARTNER div.title_left {
+    width: 13em;
+}
+
+#cl_refer .PARTNER .TOURINC {
+    width: 40em;
+}
+
+#cl_refer .cl_alink .link, #cl_refer .block_cancel_claim .link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cl_refer .cl_alink .link:first-letter {
+    text-transform: uppercase;
+}
+
+#cl_refer td.block_cancel_claim {
+    height: 0px;
+    vertical-align: bottom;
+    border-bottom-width: 1px;
+}
+
+#cl_refer td.block_cancel_claim .cancel_claim {
+    border-top: 1px solid #888888;
+    padding: 7px 0 0 0;
+    background: url(../../pict/cross.png) no-repeat 100% 11px;
+}
+
+#cl_refer select.curr {
+    width: 50px;
+}
+
+#cl_refer td.num {
+    font-weight: bold;
+}
+
+#cl_refer td.num a {
+    font-weight: normal;
+    color: red;
+}
+
+#cl_refer .claim {
+    color: #ffffff;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+#cl_refer table.cl_refer_result th, #cl_refer table.cl_refer_result td {
+    white-space: normal;
+    text-align: left;
+}
+
+#cl_refer table.cl_refer_result td .freight td {
+    padding-top: 5px;
+}
+
+#e_doc {
+    max-height: 500px;
+    overflow: auto;
+}
+
+#messages th, #messages td {
+    vertical-align: top;
+}
+
+.samo_container table thead.pay_time_limit th {
+    background: #cc3333;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#cl_refer input.FIO {
+    width: 100%;
+}
+
+.samo_container div.partner_info {
+    overflow: auto;
+    height: 490px;
+    padding-right: 6px;
+}
+
+#cl_refer .left_side {
+    padding-top: 8px;
+    vertical-align: top;
+    width: 260px;
+}
+
+#cl_refer .right_side div {
+    margin-left: 10px;
+}
+
+#cl_refer .right_side table, #cl_refer .left_side table {
+    width: 100%;
+}
+
+#cl_refer .line_30 {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#cl_refer .right_side {
+    border-left: 1px solid #aaaaaa;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+#cl_refer .right_side td {
+    padding-left: 10px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#cl_refer td.label_filter {
+    padding-left: 10px;
+}
+
+.samo_container .controls .cl_refer_btn {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.samo_container fieldset div.frm-row strong.frm-value {
+    background: none;
+    line-height: 18px;
+}
+
+.samo_container .partner_info table {
+    width: 100%;
+}
+
+#cl_refer .partnercomment, #cl_refer .claim_banner {
+    padding: 5px;
+}
+
+#cl_refer .linked_claims {
+    background: none repeat scroll 0 0 #C5F4BC !important;
+    border: 1px solid #CCCBC2;
+    padding: 5px;
+}
+
+#cl_refer .num span {
+    display: block;
+}
+
+#cl_refer .num span img {
+    display: none;
+    margin-right: 5px;
+}
+
+#cl_refer .claim-payment-overdue, #cl_refer .timelimit {
+    font-weight: bold;
+    color: red;
+}
+
+.timelimit {
+    color: var(--warning_info_color) !important;
+}
+
+.partner_info .left_column {
+    width: 180px;
+}
+
+.samo_container table.cl_referer_cost {
+    width: 100%;
+}
+
+.samo_container .cost p {
+    display: inline-block;
+}
+
+#cl_refer .hotel_note, #cl_refer .service_note, #cl_refer .visa_note {
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#cl_refer .resultset td.doc_status_1 {
+    font-weight: bold;
+    color: #008000;
+}
+
+#cl_refer .resultset td.doc_status_2 {
+    font-weight: bold;
+}
+
+#cl_refer .cl_paid .claim-status, #cl_refer .cl_penaltypaid .claim-status {
+    color: #008000;
+}
+
+#cl_refer .cl_cancel .claim-status {
+    color: #ff0000;
+}
+
+#cl_refer .cl_partpaid .claim-status {
+    color: #cc9900;
+}
+
+#cancel_claim select.cancel_claim_reason_select {
+    width: 380px;
+}
+
+#cancel_claim {
+    max-height: 500px;
+    overflow: auto;
+}
+
+#E_DOC_TYPE {
+    width: 93%;
+}
+
+#type_note {
+    margin: auto;
+    text-align: justify;
+    width: 97%;
+}
+
+#cl_refer .type_note_x {
+    text-align: justify;
+}
+
+#cl_refer tr.flash td {
+    -webkit-transition: background 1.0s ease-in-out;
+    -moz-transition: background 1.0s ease-in-out;
+    -ms-transition: background 1.0s ease-in-out;
+    transition: background 1.0s ease-in-out;
+}
+
+#cl_refer tr.blink-once td {
+    background-color: InfoBackground !important;
+    -webkit-transition: background 1.5s ease-in-out;
+    -moz-transition: background 1.5s ease-in-out;
+    -ms-transition: background 1.5s ease-in-out;
+    transition: background 1.5s ease-in-out;
+}
+
+.samo_container #e_doc table.res thead th.ids {
+    width: 80px;
+}
+
+.samo_container #e_doc table.res thead th.doccategory {
+    width: 155px;
+}
+
+.samo_container #e_doc table.res thead th.action {
+    width: 120px;
+}
+
+#cl_refer .left {
+    float: left;
+    display: inline-block !important;
+}
+
+#cl_refer .right {
+    float: right;
+    display: inline-block !important;
+}
+
+#cl_refer .spomessage {
+    padding: 4px;
+    margin: 4px 0;
+}
+
+#cl_refer .spomessage .ui-icon {
+    float: left;
+    margin-right: 0.3em;
+}
+
+#cl_refer select.controllers {
+    width: 250px;
+}
+
+.cl_refer ~ #modalContainer .partner_info .chosen-container .chosen-drop {
+    border-bottom: 0;
+    border-top: 1px solid #aaaaaa;
+    top: auto;
+    bottom: 40px;
+}
+
+#cl_refer .passport {
+    color: #727272;
+    background-color: #727272;
+}
+
+#cl_refer .phys_buyer td.mobile, #cl_refer .phys_buyer td.email {
+    color: #727272;
+    background-color: #727272;
+}
+
+#cl_refer .phys_buyer td.mobile.buyerdata, #cl_refer .phys_buyer td.email.buyerdata {
+    color: inherit;
+    background-color: inherit;
+}
+
+#cl_refer .passport .passport_block {
+    color: inherit;
+    background-color: inherit;
+}
+
+#cl_refer .passport .passport_block:hover {
+    color: black;
+    background-color: #a4a4a4;
+}
+
+.cl_refer ~ #modalContainer .partner_info .chosen-container.chosen-with-drop .chosen-single {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: none;
+}
+
+.cl_refer ~ #modalContainer .partner_info .chosen-container.chosen-with-drop .chosen-drop {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: none;
+    margin-bottom: -16px;
+}
+
+.cl_refer ~ #modalContainer .partner_info .chosenDown .chosen-container .chosen-drop {
+    top: 40px;
+    bottom: auto;
+}
+
+.samo_container .frplacement span.icon {
+    background-image: none;
+}
+
+#cl_refer .resultset .inscust .title {
+    padding-left: 20px;
+}
+
+#cl_refer tr.Status_3 td {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+#cl_refer .o_status div.status {
+    text-align: left;
+}
+
+#cl_refer tr.Status_3 td.o_status {
+    text-decoration: unset;
+    opacity: 1;
+    color: red;
+}
+#cl_refer tr.Status_3 td.o_confirmed .status{
+    display: none;
+}
+.samo_container.cl_refer ~ #modalContainer fieldset div.row {
+    margin-bottom: 20px;
+}
+
+.samo_container.cl_refer ~ #modalContainer fieldset div.row input {
+    width: 100%;
+}
+
+/* BEGIN FOR #freightsContainer */
+#freightsContainer table {
+    width: 100%;
+}
+#freightsContainer .freightsRes {
+    max-height: 350px;
+    overflow: auto;
+}
+
+#freightsContainer .hideLink a {
+    text-decoration: none;
+    border-bottom: 1px dashed #9d9d9d;
+}
+
+#freightsContainer .hideLink a:hover {
+    border-bottom: none;
+}
+
+#freightsContainer .hideLink a + a {
+    display: none;
+}
+
+#freightsContainer .text-center {
+    text-align: center;
+}
+
+#freightsContainer .text-center.quarter-width {
+    width: 25px;
+}
+
+#freightsContainer .text-left {
+    text-align: left;
+}
+
+#freightsContainer .text-right {
+    text-align: right;
+}
+
+#freightsContainer .freightTable tr.yellow td, #freightsContainer .freightTable tr.checked td {
+    background: #e6d196;
+}
+
+#freightsContainer .freightTable tr.superfreight td {
+    background: #a0d1ff;
+    font-weight: bold;
+}
+
+#freightsContainer .sortbutton {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+#freightsContainer .sortbutton > .arrows {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    padding: 8px 30px 8px 10px;
+}
+#freightsContainer .sortbutton > input {
+    display: none;
+}
+#freightsContainer .sortInput + .arrows:after,
+#freightsContainer .sortInput + .arrows:before {
+    content: ' ';
+    position: absolute;
+    right: 10px;
+    border: 10px solid transparent;
+}
+#freightsContainer .sortInput + .arrows:after {
+    bottom: -10px;
+    border-top: 10px solid #86a0b3;
+    border-width: 12px 7px;
+}
+#freightsContainer .sortInput + .arrows:before {
+    top: -10px;
+    border-bottom: 10px solid #86a0b3;
+    border-width: 12px 7px;
+}
+#freightsContainer .asc .sortInput + .arrows:before {
+    border-bottom-color: #fff;
+}
+#freightsContainer .desc .sortInput + .arrows:after {
+    border-top-color: #fff;
+}
+/* END FOR #freightsContainer */
+
+.samo_container #OPEOPLE_LIST .order_info {
+    margin: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.samo_container #OPEOPLE_LIST .save {
+    margin: 10px;
+}
+
+#cl_refer .edit_payer {
+    background-image: url('../../pict/arraws.png');
+    background-repeat: no-repeat;
+    background-position: 145px;
+}
+
+.samo_container.cl_refer ~ #modalContainer .choose-payer fieldset div.row.radio input  {
+    width: 14px;
+}
+
+.choose-payer div.row.radio {
+    text-align: left;
+}
+
+#cl_refer .schedule_idate {
+    margin: 10px;
+}
+#additional_services {
+    min-height: 200px;
+}
+
+#ADDITIONAL_SERVICES td.service-dates, #ADDITIONAL_SERVICES td.service-price {
+    text-align: right;
+}
+#ADDITIONAL_SERVICES select.service_dates {
+    width: 80%;
+}
+#additional_services input[type="radio"] {
+    display: none;
+}
+#additional_services label.service {
+    font-weight: bold;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 22px;
+    cursor: pointer;
+    color: black;
+    line-height: 22px;
+    font-size: 13px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 1%, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eaeaea));
+    background: -webkit-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: -o-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: -ms-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 0px 2px 2px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#additional_services .services-container {
+    margin-top: -1px;
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    z-index: 10;
+    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+
+#additional_services:not(.collapse-disabled) input:checked ~ .services-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 375px;
+    -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+#additional_services:not(.collapse-disabled) label.service:hover:after {
+    content: ' ';
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    right: 13px;
+    top: 7px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA40lEQVQ4T2NkoBAwUqifgaYGMAYEBJQyMTFZMjIyFq9du/YeNtficgFjYGBgO1BDOVTTY6BBDtgMwWYASHMbUGMFso3///9/9PfvX4fNmzffRxZHN4AxKCioFai4EknRByBbAMTHZgiyARiagRqqgPqWA+kDQC/IYzMEbgAwwMqAgdUJsxmkecOGDaBwYADKKSAb8u/fv4dAtQZA+Q9wA4D+XglUGwa1Ba4ZZiCaIf+B4aG2adOmO3ADQkNDRX/9+tUPNPko0OTp2KIMZAhQvgsot3H9+vVLQWpompCISuXDwAUA/ZFzES+73+MAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+#additional_services:not(.collapse-disabled) input:checked + label.service:hover:after {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9ElEQVQ4T2NkoBAwUqifYZAZ4O3trfn169fnBw4c+IDDa4w+Pj56nJycd1evXv0FpAbuBV9f32QWFpY5////v//r1y/Hbdu2PUQzhNHf37+ZiYmp+v///5cfP35scfbs2W9wA/z9/TcyMTH5gTRhMQSuGWbor1+/tLZu3XodboC3t7cSKyvrAUZGRlk0Qx7BbIZp/vv3b+2mTZtaULwA4nh6eiqzs7PvRzaEgYFhKyMjYw5M8////+s2bNjQDONjRCO6IcjhgK4ZwwUwxdgMwaYZpwHo3kH2M3r04k2JDg4OApycnFLbt2+/hivJD7KkTE7OBAD/AHYRTDcdQQAAAABJRU5ErkJggg==');
+    cursor: default;
+}
+
+#additional_services:not(.collapse-disabled) div.collapse {
+    cursor: pointer;
+    height: 2em;
+    text-decoration: underline;
+}
+
+#additional_services.collapse-disabled .services-container {
+    height: auto !important;
+}
+
+#additional_services.collapse-disabled label.service:hover:after {
+    background-image: none !important;
+}
+
+#additional_services.collapse-disabled label.service {
+    cursor: default !important;
+}
+
+.partnercomment.checklistbox {
+    height: 400px;
+    margin-bottom: 8px;
+}
+
+#ADDITIONAL_VISAS table.visa {
+    width: 100%;
+}
+
+.samo_container .visa_note {
+    margin-left: 20px;
+    margin-top: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.samo_container {
+    display: block;
+    margin-top: 5px;
+}
+
+#cl_refer .country-name {
+    display: inline-block;
+    min-width: 100px;
+    margin: 2px 0;
+}
+
+#cl_refer .p_v_status .link {
+    display: inline-block;
+    min-width: 120px;
+}
+.samo_container .trFreights {
+    display: none;
+}
+.samo_container .trFreights_show {
+    display: table-row;
+}
+.samo_container .trFreights .tdFreights {
+    padding: 10px;
+    background: #ccc;
+}
+
+.samo_container .trFreights table.res .filterOptions td {
+    padding: 10px ;
+}
+#freightsContainer .external_freight_note.warning {
+    margin: 1%;
+}
+#cl_refer .timesSlider {
+    width: 97%;
+    margin: 10px auto;
+}
+#ADDITIONAL_SERVICES .FREIGHTINFO_PORT {
+    width: 280px;
+}
+#ADDITIONAL_SERVICES .FREIGHTINFO_FREIGHT {
+    text-transform: uppercase;
+    width: 100px;
+}
+#ADDITIONAL_SERVICES .FREIGHTINFO_TIME {
+    width: 50px;
+}
+#cl_refer button.freightInfo {
+    display: block;
+    margin: 2px 0;
+}
+#FREIGHTINFO {
+    height: 200px;
+}
+#FREIGHTINFO .FREIGHTINFO_PORT {
+    width: 200px;
+}
+#FREIGHTINFO .FREIGHTINFO_FREIGHT {
+    text-transform: uppercase;
+    width: 150px;
+}
+#FREIGHTINFO .FREIGHTINFO_FREIGHT_BACK {
+    text-transform: uppercase;
+    width: 150px;
+}
+#FREIGHTINFO .FREIGHTINFO_TIME {
+    width: 50px;
+}
+
+#FREIGHTINFO .FREIGHTINFO_TIME_BACK {
+    width: 50px;
+}
+
+.orders.block {
+    display: block;
+}
+
+#E_DOC_PEOPLE {
+    width: auto;
+}
+
+.vt.right {
+    text-align: right;
+}
+
+#freightsContainer .not-last-freight {
+    border-bottom-width: 0;
+    height: 15px;
+}
+
+.cl-r-manager-data, .cl-r-idate-data, .cl-r-payment-data, .cl-r-status-data, .cl-r-dates-data {
+    width: 10%;
+}
+
+.cl-r-tour-data {
+    width: 30%;
+}
+
+.cl-r-claim-data {
+    width: 20%;
+}
+
+.cl-cost.titles {
+    width: 40%;
+}
+
+.cl-cost.claim-currency, .cl-cost.pay-currency {
+    width: 20%;
+}
+
+.up {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url(../../pict/chosen/chosen-sprite.png) no-repeat 0 2px;
+}
+
+.down {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url(../../pict/chosen/chosen-sprite.png) no-repeat -18px 2px;
+}
+
+.claim_banner {
+    cursor: pointer;
+    height: 15px;
+    overflow: hidden;
+}
+
+.menu_edit ul {
+    display: none;
+    min-width: 160px;
+    background-color: var(--inactive-button-bgcolor);
+    position: absolute;
+    padding: 5px 10px;
+}
+
+.menu_edit li:hover ul {
+    display: block;
+}
+
+.menu_edit li:hover {
+    background-color: var(--inactive-button-bgcolor);
+}
+
+.menu_edit .drop-down:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 3px solid;
+    border-right: 3px solid transparent;
+    border-bottom: 0;
+    border-left: 3px solid transparent;
+}
+
+.menu_edit li {
+    float: left;
+    position: relative;
+}
+
+.o_pcount {
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.refundAvailable div {
+    padding: 5px;
+    text-align: left;
+}
+
+span.center {
+    padding-bottom: 3px;
+    display: block;
+}
+.refundAvailable .center {
+    text-align: center;
+}
+
+.claim-orders__button {
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.claim-orders__content {
+    display: none;
+}
+
+.orders-group {
+    width: 100%;
+}
+
+.orders-group__header-title {
+    font-weight: bold;
+    background-color: var(--row-odd-bgcolor) !important;
+}
+
+.order-block {
+    padding-left: 1rem !important;
+}
+
+.order-block__data {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.order-block__data-suborder {
+    padding-left: 2rem !important;
+}
+
+.order-block__data-note {
+    color: grey;
+    padding-left: 1em !important;
+    text-transform: lowercase;
+}
+
+.order-block__data-freight{
+    font-style: italic;
+    padding-left: 1em !important;
+}
+
+.order-block__tools {
+    width: max-content;
+    margin-left: auto !important;
+    padding-right: 0.5em !important;
+}
+
+.warning_info {
+    color: var(--warning_info_color);
+}
+
+.success_info {
+    color: var(--success_info_color);
+}
+
+.icon_color {
+    color: var(--icon_color);
+}
+:root {
+    --warning_info_color: #f36f21;
+    --icon_color: #366383;
+    --success_info_color: #007355;
+}
+
+.human {
+    width: 3em;
+    vertical-align: top;
+}
+
+.dropdown-menu:hover span {
+    background-color: var(--inactive-button-bgcolor);
+}
+
+.dropdown-menu:hover div {
+    display: block;
+}
+
+.dropdown-button {
+    color: var(--link-active-color);
+    padding: 10px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.dropdown-button:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 3px solid;
+    border-right: 3px solid transparent;
+    border-bottom: 0;
+    border-left: 3px solid transparent;
+}
+
+.dropdown-content {
+    overflow: visible;
+    padding: 10px !important;
+    display: none;
+    position: absolute;
+    background-color: var(--inactive-button-bgcolor);
+    min-width: 160px;
+}
+
+.orders td {
+    border-width: 0 !important;
+}
+
+div.bonus {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.prepayment {
+    display: table-cell;
+}

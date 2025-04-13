@@ -1,0 +1,97 @@
+#modalContainer table td.dark {
+    width: 200px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+#modalContainer table td.red {
+    font-weight: bold !important;
+    color: #ff0000;
+}
+
+#agencies .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "town metro"
+    "query query"
+    "btn btn";
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+#agencies .controls > div > label {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 24px;
+}
+
+#agencies .controls .chosen-container {
+    text-align: left;
+}
+
+#agencies .controls .townfrom-filter {
+    grid-area: town;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "lbl-town cb-town"
+}
+
+#agencies .controls .townfrom-filter > label {
+    grid-area: lbl-town;
+}
+
+#agencies .controls .townfrom-filter select {
+    grid-area: cb-town;
+}
+
+#agencies .controls .metrostation-filter {
+    grid-area: metro;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "lbl-metro cb-metro"
+}
+
+#agencies .controls .metrostation-filter > label {
+    grid-area: lbl-metro;
+}
+
+#agencies .controls .metrostation-filter select {
+    grid-area: cb-metro;
+}
+
+
+#agencies .controls .query-container {
+    grid-area: query;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "lbl-query inp-query"
+}
+
+#agencies .controls .query-container > label {
+    grid-area: lbl-query;
+}
+
+#agencies .controls .query-container input {
+    grid-area: inp-query;
+}
+
+#agencies .controls .action-btn {
+    grid-area: btn;
+    text-align: right;
+}
+
+#agencies .controls .chosen-container-single .chosen-drop {
+    margin-top: -12px;
+}
+
+#agencies .resultset {
+    padding: 0;
+}
+
+#agencies .resultset table.res {
+    width: var(--main-container-width);
+}

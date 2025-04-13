@@ -1,0 +1,1 @@
+(function($){samo.mtsbank=function(){samo.acquiring.work('mtsbank');};})(samo.jQuery);

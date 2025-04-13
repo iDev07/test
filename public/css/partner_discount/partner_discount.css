@@ -1,0 +1,9 @@
+#partner_discount {
+    margin: auto;
+    width: var(--main-container-width);
+}
+
+#partner_discount table {
+    clear: left;
+    width: 100%;
+}

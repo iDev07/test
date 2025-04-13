@@ -1,0 +1,9 @@
+#claim_act {
+    width: var(--main-container-width);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#claim_act form.download-attach {
+    margin: 5px 0;
+}

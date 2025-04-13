@@ -1,0 +1,33 @@
+#freight_time {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#freight_time .n1 {
+    width: 20%;
+}
+
+#freight_time .resultset{
+    width: 100%;
+}
+
+#freight_time table.res{
+    width: 100%;
+    border: none !important;
+}
+
+#freight_time th.target {
+    font-weight: bold;
+    background: none;
+    border: none !important;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.frtime-townfrom, .frtime-tour {
+    width: 40%;
+}
+
+.frtime-townfrom.title, .frtime-tour.title {
+    width: 10%;
+}

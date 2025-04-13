@@ -1,0 +1,32 @@
+#rating_position {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#rating_position .position {
+    color: red;
+}
+
+#rating_position .rating {
+    margin-bottom: 20px;
+}
+
+#rating_position .rating th {
+    color: black;
+}
+
+#rating_position .note {
+    background-color: infobackground !important;
+}
+
+#rating_position .rating.dark th {
+    color: white;
+}
+
+#rating_position .rating .label, #rating_position .rating .value {
+    width: 50%;
+}
+
+#rating_position .rating .value {
+    font-weight: bold;
+}

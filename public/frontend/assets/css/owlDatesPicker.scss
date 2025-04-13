@@ -1,0 +1,44 @@
+.owl-dt-popup {
+  .owl-dt-container-info {
+    display: none !important;
+  }
+
+  .owl-dt-inline-container,
+  .owl-dt-popup-container {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    box-shadow: 0px 6px 12px 2px rgba(0, 0, 0, .12);
+  }
+
+  .owl-dt-calendar-table {
+    .owl-dt-calendar-cell-content {
+      font-weight: 500;
+    }
+
+    .owl-dt-calendar-cell-selected {
+      background-color: #3068e8;
+    }
+
+    .owl-dt-calendar-cell-in-range {
+      background-color: hsla(198, 90%, 90%, 1);
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .owl-dt-popup {
+    .owl-dt-popup-container {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 0;
+    }
+  }
+}

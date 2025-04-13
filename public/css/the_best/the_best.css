@@ -1,0 +1,45 @@
+#the_best .container {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#the_best select, #the_best .TOWNFROMINC_chosen, #the_best .STATEFROM_chosen {
+    width: calc(var(--main-container-width) / 3) !important;
+}
+#the_best td.price {
+    font-style: italic;
+    color: #666;
+}
+#the_best td.active {
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+#the_best td.active, #the_best  td.notactive {
+    cursor: pointer;
+}
+#the_best button.load {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#the_best .TOWNFROM_container {
+    display: table-row;
+}
+
+#the_best .STATEFROM_container {
+    display: table-row;
+}
+
+#the_best.PACKET-0 .STATEFROM_container {
+    display: none;
+}
+
+#the_best.PACKET-2 .TOWNFROM_container {
+    display: none;
+}
+
+#the_best .TOWNTO_container .ui-multiselect-open {
+    margin-right: 5px;
+}

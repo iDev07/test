@@ -1,0 +1,48 @@
+#d_daily_report .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#d_daily_report td {
+    padding: 8px;
+}
+
+#d_daily_report div.hotel-name,
+#d_daily_report div.ticket-name {
+    background-color: var(--table-header-bgcolor);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 40%;
+    height: 25px;
+    font-family: inherit;
+    font-size: 13px;
+    margin: 20px auto auto;
+    padding-top: 5px;
+}
+
+#d_daily_report table.res {
+    width: 40%;
+}
+
+#d_daily_report table.res td {
+    padding: 0 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#d_daily_report table.res th {
+    background-color: var(--main-panel-bgcolor);
+    color: black;
+}
+
+#d_daily_report table.res td.subtotal,
+#d_daily_report table.res td.total,
+#d_daily_report table.res td.alltotal{
+    text-align: right;
+}
+
+#d_daily_report table.res.alltotal {
+    margin-top: 20px;
+}

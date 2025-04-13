@@ -1,0 +1,1 @@
+(function($){samo.partner_curator=function(){};$(samo.partner_curator);})(samo.jQuery);

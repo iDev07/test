@@ -1,0 +1,75 @@
+#cl_refer button.add_people {
+    margin: 5px;
+}
+#claim_edit {
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+}
+#claim_edit .claim_edit_div_close {
+    text-align: right;
+}
+
+#claim_edit .claim_edit_div_load_order,
+#claim_edit .claim_edit_div_close,
+#claim_edit .claim_edit_div_calc {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#claim_edit .left_column {
+    text-align: right !important;
+}
+#claim_edit .right_column {
+    padding-right: 20px;
+}
+
+#claim_edit div.step2 {
+    clear: both;
+}
+#claim_edit .hVariant {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#claim_edit div.tourist fieldset.subpanel {
+    float: left;
+    margin-right: 1.6%;
+    padding: 10px;
+    width: 44%;
+}
+
+#claim_edit div.tourist fieldset.subpanel .order_info {
+    width: 100%;
+}
+
+#claim_edit .CLAIMPRICE {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#claim_edit .CLAIMPRICE .small {
+    font-size: 13px;
+    opacity: 0.5;
+}
+#claim_edit .overlay {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3000;
+    background-color: #000;
+    cursor: progress;
+}
+#claim_edit .COMMISSIONS {
+    margin: auto;
+    width: 25%;
+    display: none;
+}
+#claim_edit .COMMISSIONS table{
+    margin: 10px 0 0 0;
+}
+#claim_edit .toggle_details {
+    margin: 10px 0 0 0;
+}

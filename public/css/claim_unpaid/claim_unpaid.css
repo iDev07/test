@@ -1,0 +1,16 @@
+#claim_unpaid .PAYSTATUS {
+	width: 180px;
+}
+#claim_unpaid .EARLYCOMISSION {
+	width: 180px;
+}
+
+.samo_container .container {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#claim_unpaid table.std.res {
+	margin-top: 1em;
+}
+

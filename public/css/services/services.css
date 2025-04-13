@@ -1,0 +1,102 @@
+#services .std.container {
+    width: var(--main-container-width);
+    margin: auto;
+}
+.samo_container table.std {
+    border-spacing: 15px;
+}
+
+.samo_container table.std table {
+    width: 100%;
+}
+
+#services .direction {
+    width: var(--main-container-width);
+    max-width: var(--main-container-width);
+}
+
+#services .direction td {
+    padding: 5px 10px !important;
+}
+
+#services .direction .direction_left {
+    width: 30% !important;
+    text-align: right;
+}
+
+#services .direction .direction_left.top {
+    vertical-align: top;
+    padding-top: 8px !important;
+}
+
+.direction_left {
+    text-transform: lowercase;
+}
+#services .direction .direction_right {
+    width: 70%;
+    text-align: left;
+}
+
+#services .right {
+    float: right;
+    display: inline-block;
+}
+
+#services .tourists select {
+    width: 61px;
+    display: inline;
+}
+
+#services .tourists {
+    white-space: normal;
+}
+
+#services .tourists .link, #services .tourists select {
+    display: inline-block;
+}
+
+#services .tourists .link.remove, #services .tourists .link.add {
+    width: 24px;
+}
+
+#services .link.add .ui-icon-plus, #services .link.remove .ui-icon-minus {
+    background-position-y: -126px;
+}
+
+#services .AGES_CONTAINER {
+    display: inline-flex;
+    margin-bottom: 10px !important;
+}
+
+.additional_risks div.center {
+    margin: 10px 0;
+}
+
+#services .td_price {
+    width: 130px;
+}
+
+#services .td_price .price_button {
+    width: 100%;
+}
+
+.child_ages {
+    display: inline-block;
+    margin-left: 10px !important;
+    visibility: hidden;
+}
+
+div.currency {
+    display: inline-block;
+    float: right;
+}
+
+.checklistbox {
+    width: 97%;
+    height: 70px !important;
+    float: left;
+}
+
+.vertical {
+    vertical-align: top;
+}

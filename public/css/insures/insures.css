@@ -1,0 +1,86 @@
+#insures .std.container {
+    width: var(--main-container-width);
+    margin: auto;
+}
+.samo_container table.std {
+    border-spacing: 15px;
+}
+
+.samo_container table.std table {
+    width: 100%;
+}
+
+#insures .direction {
+    width: var(--main-container-width);
+    max-width: var(--main-container-width);
+}
+
+#insures .direction td {
+    padding: 5px 10px !important;
+}
+
+#insures .direction .direction_left {
+    width: 30% !important;
+    text-align: right;
+}
+
+#insures .direction .direction_left.top {
+    vertical-align: top;
+    padding-top: 8px !important;
+}
+
+#insures .direction .direction_right {
+    width: 70%;
+    text-align: left;
+}
+
+#insures .right {
+    float: right;
+    display: inline-block;
+}
+
+#insures .tourists select {
+    width: 60px;
+    display: inline;
+}
+
+#insures .tourists {
+    white-space: normal;
+}
+
+#insures .tourists .link, #insures .tourists select {
+    display: inline-block;
+}
+
+#insures .tourists .link.remove, #insures .tourists .link.add {
+    width: 24px;
+}
+
+#insures .link.add .ui-icon-plus, #insures .link.remove .ui-icon-minus {
+    background-position-y: -126px;
+}
+
+#insures .AGES_CONTAINER {
+    display: inline-flex;
+    margin-bottom: 10px !important;
+}
+
+#insures .button {
+    margin: 5px 0;
+}
+
+.additional_risks div.center {
+    margin: 10px 0;
+}
+
+#insures .td_price {
+    width: 130px;
+}
+
+#insures .td_price .price_button {
+    width: 100%;
+}
+
+.link.remove.v-hidden {
+    visibility: hidden;
+}

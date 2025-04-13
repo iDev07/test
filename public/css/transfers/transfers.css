@@ -1,0 +1,106 @@
+#transfers .std.container {
+    width: var(--main-container-width);
+    margin: auto;
+}
+.samo_container table.std {
+    border-spacing: 15px;
+}
+
+.samo_container table.std table {
+    width: 100%;
+}
+
+#transfers .direction {
+    width: var(--main-container-width);
+    max-width: var(--main-container-width);
+}
+
+#transfers .direction td {
+    padding: 5px 10px;
+}
+
+#transfers .direction .direction_left {
+    width: 30%;
+    text-align: right;
+}
+
+#transfers .direction .direction_left.top {
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+.direction_left {
+    text-transform: lowercase;
+}
+#transfers .direction .direction_right {
+    width: 70%;
+    text-align: left;
+}
+
+#transfers .right {
+    float: right;
+    display: inline-block;
+}
+
+#transfers .tourists select {
+    width: 61px;
+    display: inline;
+}
+
+#transfers .tourists {
+    white-space: normal;
+}
+
+#transfers .tourists .link, #transfers .tourists select {
+    display: inline-block;
+}
+
+#transfers .tourists .link.remove, #transfers .tourists .link.add {
+    width: 24px;
+}
+
+#transfers .link.add .ui-icon-plus, #transfers .link.remove .ui-icon-minus {
+    background-position-y: -126px;
+}
+
+#transfers .AGES_CONTAINER {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.additional_risks div.center {
+    margin: 10px 0;
+}
+
+#transfers .td_price {
+    width: 130px;
+}
+
+#transfers .td_price .price_button {
+    width: 100%;
+}
+
+#transfers .child_ages {
+    display: inline-block;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+div.currency {
+    display: inline-block;
+    float: right;
+}
+
+#transfers .checklistbox {
+    width: 97%;
+    height: 70px;
+    float: left;
+}
+
+.vertical {
+    vertical-align: top;
+}
+
+.direction_left.hidden-empty {
+    visibility: hidden;
+}

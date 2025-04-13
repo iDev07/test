@@ -1,0 +1,1962 @@
+#bron_info div.controls {
+    text-align: center;
+}
+
+#bron_info .PRICEINFO {
+    margin-top: 10px !important;
+}
+
+#bron_info table.tourist input, #bron_info table.tourist select {
+    width: 100%;
+}
+
+#bron_info input.checkbox {
+    width: auto !important;
+}
+
+#bron_info div.tourist {
+    clear: left;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+#bron_info div.tourist fieldset, #bron_info .PERSONINFO fieldset, #bron_info .CLAIMINFO fieldset, #bron_info .PRICEINFO fieldset {
+    float: left;
+    margin-right: 1.6%;
+    padding: 10px;
+    width: 44%;
+}
+
+#bron_info .full_width {
+    width: 100%;
+}
+
+#bron_info .left_block {
+    width: 460px;
+    float: left;
+    margin-right: 20px;
+}
+
+#bron_info .left_block.no_margin {
+    margin-right: 0;
+}
+
+#bron_info .full_width .panel {
+    width: 98%;
+}
+
+#bron_info .left_block .panel {
+    width: 440px;
+    margin: 0;
+}
+
+#bron_info .full_width .panel, #bron_info .left_block .panel {
+    float: none;
+}
+
+#bron_info .claim_info_note {
+    height: 180px;
+}
+
+#bron_info .CLAIMINFO l.claim_info_note {
+    width: 50%;
+}
+
+#bron_info .CLAIMINFO .claim_info_note.small {
+    min-height: 180px;
+}
+
+#bron_info .CLAIMINFO {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "claimnote claimnotetext";
+    gap: 30px;
+}
+
+#bron_info .CLAIMINFO:has(.full_width) {
+    display: block;
+}
+
+#bron_info .CLAIMINFO .claim_note_list {
+    grid-area: claimnote;
+    width: 100%;
+}
+#bron_info .CLAIMINFO .claim_note_text {
+    grid-area: claimnotetext;
+    width: 100%;
+}
+
+.samo_container #bron_info .WITHBUYER {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.samo_container #bron_info .WITHBUYER .BUYERINFO {
+    grid-area: buyerinfo;
+    width: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+
+.samo_container #bron_info .WITHBUYER .claim_note_list  {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    float: none;
+}
+
+.samo_container #bron_info .WITHBUYER .claim_note_text {
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+    float: none;
+}
+
+
+
+#bron_info .CLAIMINFO .left_block fieldset {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 200px;
+}
+
+#bron_info .PERSONINFO div.container, #bron_info .CLAIMINFO div.container {
+    padding: 10px;
+}
+
+#bron_info .PERSONINFO fieldset textarea, #bron_info .CLAIMINFO fieldset textarea {
+    width: 100%;
+    height: 65px;
+}
+
+#bron_info fieldset div.legend-tag {
+    text-align: left;
+}
+
+#bron_info a.help {
+    background-image: url('../../pict/info.gif');
+    background-repeat: no-repeat;
+    background-position: right;
+    text-decoration: none;
+}
+
+#bron_info .usual {
+    /*  height: 300px; */
+    margin: 8px auto;
+}
+
+#bron_info .FREIGHTSINFO.EXTERNAL-1 .freightsFilter,
+#bron_info .FREIGHTSINFO.EXTERNAL-1 .freightsRes,
+#bron_info .FREIGHTSINFO.EXTERNAL-1 .external_freight_note,
+#bron_info .FREIGHTSINFO.EXTERNAL-2 .freightsFilter,
+#bron_info .FREIGHTSINFO.EXTERNAL-2 .freightsRes,
+#bron_info .FREIGHTSINFO.EXTERNAL-2 .external_freight_note {
+    display: none;
+}
+
+#bron_info .claim_info {
+    text-align: left;
+}
+
+#bron_info .claim_info, #bron_info .peoples {
+    padding-bottom: 0;
+}
+
+#bron_info .peoples, #bron_info .ainfo {
+    padding-top: 0;
+}
+
+#bron_info .controls {
+    width: 80% !important;
+    margin: 10px auto;
+    background: #AEC1DD;
+    border: solid 1px #222;
+}
+
+.top_container {
+    width: var(--main-container-width);
+    margin: 0 auto !important;
+}
+
+#bron_info .controls p {
+    clear: both;
+    line-height: 1px;
+}
+
+#bron_info .checklistbox {
+    height: 60px;
+}
+
+#bron_info .addinfant {
+    display: none;
+}
+
+#bron_info .claim_info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#bron_info .CLAIMPRICE {
+    font-size: 16px;
+    font-weight: bold;
+    width: 32%;
+    text-align: center;
+}
+
+#bron_info .price_details .small {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+#bron_info .not-actual {
+    text-decoration: line-through;
+    color: #607788;
+}
+
+#bron_info div.sex label, #bron_info div.sex input {
+    float: none !important;
+    width: auto !important;
+}
+
+#bron_info div.sex span {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+#bron_info div.sex label {
+    margin-right: 20px;
+    padding-left: 4px;
+}
+
+#bron_info .COMMISSION, #bron_info .BONUS, #bron_info .tax_sum {
+    text-align: left;
+    font-weight: bold;
+}
+
+#bron_info .BONUS .title span {
+    display: none;
+}
+
+#bron_info .CLAIMRESULT {
+    width: 560px;
+    margin: auto;
+}
+
+#bron_info fieldset {
+    padding: 0;
+}
+
+#bron_info .freights_class {
+}
+
+#bron_info input.date {
+    background-image: none !important;
+}
+
+#bron_info .CLAIMRESULT div {
+    font-size: 1.5em;
+}
+
+#bron_info div.tourist input {
+    margin: 2px 0;
+    padding: 6px 6px;
+    font-size: 13px;
+}
+
+#bron_info fieldset.error {
+    border: 1px solid red;
+}
+
+#bron_info fieldset.error legend span {
+    color: red;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#bron_info .COMMISSION span {
+    font-weight: normal;
+}
+
+#bron_info .COMMISSION {
+    clear: left;
+}
+
+#bron_info .COMMISSIONS {
+    display: none;
+}
+
+#bron_info .COMMISSIONS table {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+#bron_info .COMMISSION .value, #bron_info .commission_money {
+    white-space: nowrap;
+}
+
+#bron_info .CLAIMINFO fieldset div {
+    text-align: left;
+}
+
+#bron_info input.date {
+    padding-right: 0;
+}
+
+#bron_info .tourist input {
+    font-size: 12px;
+}
+
+#bron_info fieldset.claiminfo_container {
+    padding: 10px;
+    padding-top: 0;
+}
+
+#bron_info div.add_inf {
+    clear: both;
+    text-align: left;
+}
+
+#bron_info div.add_inf label {
+    font-weight: bold;
+    color: blue;
+}
+
+#bron_info .CLAIMPRICE_NOTICE {
+    color: #CC0000;
+    font-weight: bold;
+    display: none;
+}
+
+#agreement_text {
+    text-align: left;
+    height: 350px;
+    overflow: auto;
+}
+
+#agreement_text strong, #agreement_text b {
+    font-weight: bold;
+}
+
+#agreement_text i, #agreement_text em {
+    font-style: italic;
+}
+
+#bron_info div.spog_message {
+    color: red;
+    font-weight: bold;
+    background-color: pink;
+    border: 1px solid red;
+    margin: 0px auto 16px auto;
+    padding: 16px;
+}
+
+#bron_info .commission_block {
+    text-align: center;
+}
+
+#bron_info .toggle_details {
+    margin-top: 10px;
+}
+
+#bron_info .CLAIMINFO fieldset .checklistbox {
+    height: 135px;
+    font-size: 13px;
+}
+
+#bron_info .CLAIMINFO fieldset .NOTECLAIM {
+    border: 0 none;
+    height: 80%;
+    padding: 5px 10px;
+    resize: none;
+}
+
+#bron_info #CONTRACT {
+    width: 96%;
+    height: 200px;
+    overflow: auto;
+    text-align: left;
+    border: solid 1px #eee;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+}
+
+#bron_info label.contract_agree {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#bron_info .cinfo {
+    padding: 10px;
+}
+
+#bron_info #CONTRACT h1, #bron_info #CONTRACT h2, #bron_info #CONTRACT h3, #bron_info #CONTRACT h4, #bron_info #CONTRACT h5, #bron_info #CONTRACT h6 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: .67em 0;
+}
+
+#bron_info #CONTRACT h2 {
+    font-size: 1.8em;
+}
+
+#bron_info #CONTRACT h3 {
+    font-size: 1.6em;
+}
+
+#bron_info #CONTRACT h4 {
+    font-size: 1.4em;
+}
+
+#bron_info #CONTRACT h5 {
+    font-size: 1.2em;
+}
+
+#bron_info #CONTRACT h6 {
+    font-size: 1em;
+}
+
+#bron_info #CONTRACT b, #bron_info #CONTRACT strong {
+    font-weight: bold;
+}
+
+#bron_info #CONTRACT i, #bron_info #CONTRACT em {
+    font-style: italic;
+}
+
+#bron_info #CONTRACT h3 {
+    font-weight: inherit;
+}
+
+#additional_services {
+    overflow: auto;
+}
+
+#additional_services .gray_service {
+    color: gray;
+}
+
+#additional_services .service-name {
+    width: 65%;
+}
+#additional_services .service-dates {
+    width: 25%;
+}
+#additional_services .service-price {
+    width: 10%;
+}
+
+#additional_insures {
+    overflow: auto;
+}
+
+#bron_info .CLAIMINFO {
+    margin-top: 20px;
+}
+
+#bron_info .resultset {
+    clear: left;
+}
+
+#bron_info .PRICEINFO {
+    clear: left;
+    float: none;
+    margin: auto;
+    width: 540px;
+}
+
+#bron_info .PRICEINFO fieldset {
+    float: none;
+    width: 530px;
+}
+
+#bron_info .PRICEINFO .price_details {
+    width: 100%;
+}
+
+#bron_info .PRICEINFO .price_details td {
+    vertical-align: top;
+    padding: 3px;
+}
+
+/* promo-code input */
+#bron_info .PRICEINFO .price_details input {
+    margin: 2px 0;
+    padding: 6px 6px;
+    font-size: 13px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* align "How did you find out about us?" */
+#bron_info .PRICEINFO .price_details .buttons td {
+    vertical-align: middle;
+}
+
+#bron_info .buttons {
+    text-align: center;
+}
+
+.samo_container .bron_warning {
+    margin: 5px auto;
+    padding: 10px;
+    background-color: InfoBackground;
+    color: InfoText;
+    text-align: center;
+    font-size: 12px;
+    border: solid 1px pink;
+}
+
+#bron_info fieldset {
+    padding: 0 10px 10px 10px;
+}
+
+#bron_info fieldset .visa {
+    width: 211px;
+}
+
+.installment_pay {
+    white-space: nowrap;
+}
+
+.installment_pay input {
+    margin-top: 0px;
+}
+
+#bron_info #contract_url.hidden {
+    display: none;
+}
+
+.samo_container .frplacement.seats button.button {
+    font-weight: bold !important;
+}
+
+.samo_container .frplacement span.button {
+    display: inline-block;
+    background: url('../../pict/seat.empty.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.samo_container .frplacement span.button.seats {
+    background: url('../../pict/seat.png') no-repeat;
+}
+
+#bron_info .freightTable tr td.frplacement span.button {
+    display: none;
+}
+
+#bron_info .freightTable tr.checked td.frplacement span.button {
+    display: table-cell;
+}
+
+
+.samo_container .freights {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#bron_info .agree_processing_personal_data_checkbox {
+    padding-left: 0px !important;
+}
+
+#bron_info .error .agree_processing_personal_data table td:nth-child(2), #bron_info .error .contract_agree {
+    background-color: pink;
+}
+
+#bron_info .external_freight_note {
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 4px;
+    white-space: pre-line;
+    font-size: 13px;
+    opacity: 0.8;
+    background-color: InfoBackground;
+}
+
+#bron_info .fare-note-caption {
+    font-weight: bold;
+    font-size: large;
+}
+
+#bron_info #chart {
+    margin-top: 0;
+    width: 900px !important;
+    background-color: #ffffff;
+    border-bottom: solid 1px #888888;
+    border-top: 0;
+
+}
+
+#bron_info #chart-line-current {
+    width: 772px !important;
+}
+
+#bron_info #chart td.minprice, #bron_info #chart td.maxprice {
+    padding-left: 4px;
+}
+
+#bron_info .pricestats {
+    margin-top: 10px;
+}
+
+#bron_info .calculated_label {
+    font-weight: bold;
+
+}
+
+#bron_info .freightsRes {
+    max-height: 350px;
+    overflow: auto;
+}
+
+#bron_info .freightsRes .flight-type {
+    font-size: 9px;
+    background-color: infobackground;
+    padding: 2px;
+}
+
+#bron_info .hideLink a {
+    text-decoration: none;
+    border-bottom: 1px dashed #9d9d9d;
+}
+
+#bron_info .hideLink a:hover {
+    border-bottom: none;
+}
+
+#bron_info .hideLink a + a {
+    display: none;
+}
+
+#bron_info .text-center {
+    text-align: center;
+}
+
+#bron_info .text-center.quarter-width {
+    width: 25px;
+}
+
+#bron_info .text-left {
+    text-align: left;
+}
+
+#bron_info .text-right {
+    text-align: right;
+}
+
+#bron_info .freightsRes .messages {
+    font-weight: bold;
+    padding: 5px;
+}
+
+#bron_info .rangeLabel {
+    text-align: center;
+    margin: 7px 0;
+}
+
+#bron_info .rangeLabel span {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    width: 40px;
+}
+
+#bron_info .timesSlider {
+    margin-top: 10px;
+    width: 97%;
+}
+
+#additional_services td.srv_select_tourist {
+    padding-left: 15px;
+}
+
+#calendarPrice {
+    background: #fff;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+}
+
+#calendarPrice table {
+    background: #fafafa;
+}
+
+#bron_info .claim_info #calendarPrice table {
+    border-collapse: inherit;
+}
+
+#calendarPrice th, #calendarPrice td {
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #f6f4e9;
+    font-size: 12px;
+}
+
+#calendarPrice th.hoveredDate {
+    border: 1px solid var(--table-header-bgcolor);
+}
+
+#calendarPrice td.price {
+    cursor: pointer;
+}
+
+#calendarPrice .roll {
+    position: absolute;
+    width: 26px;
+    height: 23px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    background-size: 8px 6px;
+    cursor: pointer;
+}
+
+#calendarPrice .roll.left:after {
+    content: "\00ab";
+}
+
+#calendarPrice .roll.right:after {
+    content: "\00bb";
+}
+
+#calendarPrice .roll:hover {
+    border-color: var(--table-header-bgcolor);
+    background: var(--table-header-bgcolor);
+    color: #FBF9EE;
+}
+
+#calendarPrice .roll.right {
+    top: 50%;
+    right: 10px;
+    margin-top: -13px;
+}
+
+#calendarPrice .roll.left {
+    top: 50%;
+    right: 44px;
+    margin-top: -13px;
+}
+
+#calendarPrice .relative {
+    position: relative;
+    background: none repeat scroll 0 0 #FBF9EE !important;
+    font-size: 10px;
+}
+
+#calendarPrice .hHead:first-letter, #calendarPrice .vHead:first-letter {
+    text-transform: uppercase;
+}
+
+#calendarPrice .hHead {
+    padding-bottom: 3px;
+}
+
+#calendarPrice .vHead {
+    padding-bottom: 43px;
+    width: 45px;
+}
+
+#calendarPrice .relative.head {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+#calendarPrice .dates {
+    height: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#calendarPrice .selected {
+    border: dashed 1px var(--table-header-bgcolor);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#calendarPrice td.price div.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+}
+
+#calendarPrice td {
+    min-width: 105px;
+}
+
+#calendarPrice td.price.bgreen {
+    background: #b4ddac;
+}
+
+#calendarPrice .arrowDown, #calendarPrice .arrowUp, #calendarPrice .arrowBlank {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#calendarPrice .arrowDown {
+    border-top-color: green;
+    border-bottom: 0;
+}
+
+#calendarPrice .arrowUp {
+    border-bottom-color: red;
+    border-top: 0;
+}
+
+#calendarPrice .arrowBlank {
+    border-top: 0;
+}
+
+#calendarPrice .cloud, #calendarPrice .cloudred {
+    margin-left: 6px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px 2px;
+    font-size: 12px;
+}
+
+#calendarPrice .cloudred {
+    color: rgba(44, 43, 41, 0.51);
+}
+
+#calendarPrice .cloud {
+    color: green;
+    font-weight: 600;
+}
+
+#calendarPrice .fcontent .content {
+
+}
+
+#calendarPrice .currency {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#calendarPrice .fcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+#bron_info .freightTable tr.yellow td, #bron_info .freightTable tr.checked td {
+    background: #e6d196;
+}
+
+#bron_info .freightTable tr.superfreight td {
+    background: #a0d1ff;
+    font-weight: bold;
+}
+
+#bron_info .contacts {
+    width: 325px;
+}
+
+#bron_info .ORIGIN {
+    width: 330px;
+}
+
+#bron_info .unavailable_order td, #additional_services .unavailable_order td{
+    color: white;
+    background-color:#bf9595;
+}
+
+#bron_info .freights select, #bron_info .hotels select {
+    width: calc(var(--main-container-width) / 1.4);
+}
+
+#bron_info .freights .chosen-container, #bron_info .hotels .chosen-container  {
+    margin: 5px 0;
+}
+
+#bron_info tr.smalltitle th{
+    font-size: 9px;
+}
+#bron_info span.nowrap{
+    white-space: nowrap;
+    display: block;
+}
+#bron_info tr.smalltitle th{
+    font-size: 9px;
+}
+#bron_info span.nowrap{
+    white-space: nowrap;
+    display: block;
+}
+#bron_info .sortbutton {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+#bron_info .sortbutton > .arrows {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    padding: 8px 30px 8px 10px;
+}
+#bron_info .sortbutton > input {
+    display: none;
+}
+#bron_info .sortInput + .arrows:after,
+#bron_info .sortInput + .arrows:before {
+    content: ' ';
+    position: absolute;
+    right: 10px;
+    border: 10px solid transparent;
+}
+#bron_info .sortInput + .arrows:after {
+    bottom: -10px;
+    border-top: 10px solid #86a0b3;
+    border-width: 12px 7px;
+}
+#bron_info .sortInput + .arrows:before {
+    top: -10px;
+    border-bottom: 10px solid #86a0b3;
+    border-width: 12px 7px;
+}
+#bron_info .asc .sortInput + .arrows:before {
+    border-bottom-color: #fff;
+}
+#bron_info .desc .sortInput + .arrows:after {
+    border-top-color: #fff;
+}
+#bron_info .delete_additional_service, #bron_info .offered_additional_service, #bron_info .delete_additional_insure, #bron_info .offered_additional_insure {
+    float: right;
+    text-align: center;
+    width: 100px;
+}
+
+#bron_info #tblTownsFreight {
+    display: none;
+}
+
+#bron_info .additional_services, #bron_info .additional_insures, #bron_info .calc, #bron_info .bron, #bron_info #btnTownsFreight {
+    -webkit-box-shadow: 0px 9px 10px -7px var(--table-header-bgcolor);
+    box-shadow: 0px 9px 10px -7px var(--table-header-bgcolor);
+    border: none;
+    background: var(--table-header-bgcolor);
+    font-weight: bold;
+    color: #ECF5FB;
+}
+#bron_info .bron:disabled, #bron_info .additional_services:disabled, #bron_info .additional_insures:disabled, #bron_info .calc:disabled  {
+    -webkit-box-shadow: 0px 9px 10px -7px #ECF5FB;
+    box-shadow: 0px 9px 10px -7px #ECF5FB;
+    background-color: #ECF5FB;
+    color: var(--main-panel-bgcolor);
+}
+#bron_info .delete_additional_service, #bron_info .delete_additional_insure {
+    background: #f98195;
+}
+#bron_info .offered_additional_service, #bron_info .offered_additional_insure {
+    background: #78d977;
+}
+#bron_info .result-progress {
+    display: none;
+}
+#bron_info .progress-bar {
+    text-align: left;
+    height: 20px;
+    width: 90%;
+    margin: 3px auto 5px;
+    background: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#bron_info .progress-bar span {
+    display: inline-block;
+    height: 100%;
+    background-color: #777;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-transition: width .4s ease-in-out;
+    -moz-transition: width .4s ease-in-out;
+    -ms-transition: width .4s ease-in-out;
+    -o-transition: width .4s ease-in-out;
+    transition: width .4s ease-in-out;
+}
+
+#bron_info .blue span {
+    background-color: var(--table-header-bgcolor);
+}
+
+#bron_info .shine span {
+    position: relative;
+}
+
+#bron_info .shine span::after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-animation: animate-shine 2s ease-out infinite;
+    -moz-animation: animate-shine 2s ease-out infinite;
+}
+
+#bron_info a span.hotel-info{
+    display: inline-block;
+    width: 20px;
+    background: url("../../pict/info.gif") center center no-repeat;
+}
+
+@-webkit-keyframes animate-shine {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+        width: 95%;
+    }
+}
+
+@-moz-keyframes animate-shine {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+        width: 95%;
+    }
+}
+
+#bron_info #btnDeleteFreightExternal {
+    display: none;
+}
+
+.samo_container #bron_info .INSURESINFO table.res td.instcust  {
+    padding-left: 30px;
+}
+
+@media (max-width: 767.72px) {
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    /* Header */
+    #header {
+        margin-right: 0;
+    }
+    #header > a {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #header img.logo {
+        float: none;
+        width: 100px;
+        margin: 12px 0;
+    }
+    #header > div {
+        width: 100% !important;
+        float: unset !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    /* Logout */
+    .samo_container #div_logout {
+        margin: 12px;
+        text-align: center;
+    }
+    .samo_container #div_logout #logout {
+        display: block;
+        margin: 12px auto;
+    }
+
+    /* Bron */
+    .samo_container #bron_info {
+        margin: 12px 0;
+    }
+    .samo_container #bron_info .note:not(tr) {
+        margin: 12px;
+    }
+    .samo_container #bron_info > .top_container {
+        max-width: 100%;
+    }
+    .samo_container #bron_info table.res td {
+        min-height: 25px;
+        height: auto;
+    }
+
+    /* Tour */
+    .samo_container #bron_info .TOURINFO table.res {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .samo_container #bron_info .TOURINFO table.res thead,
+    .samo_container #bron_info .TOURINFO table.res tbody {
+        flex: 1 1 50%;
+    }
+    .samo_container #bron_info .TOURINFO table.res thead tr,
+    .samo_container #bron_info .TOURINFO table.res tbody tr {
+        display: block;
+    }
+    .samo_container #bron_info .TOURINFO table.res thead th,
+    .samo_container #bron_info .TOURINFO table.res tbody td {
+        display: flex;
+        align-items: center;
+        white-space: normal;
+        min-height: 35px;
+    }
+
+    .samo_container #bron_info fieldset {
+        min-inline-size: 100%;
+    }
+
+    .samo_container #bron_info #calendarPrice {
+        padding: 0;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    /* Hotels */
+    .samo_container #bron_info .HOTELSINFO table.res {
+        display: block;
+    }
+    .samo_container #bron_info .HOTELSINFO table.res thead {
+        display: none;
+    }
+    .samo_container #bron_info .HOTELSINFO table.res tbody {
+        display: block;
+    }
+    .samo_container #bron_info .HOTELSINFO table.res tbody tr {
+        display: block;
+    }
+    .samo_container #bron_info .HOTELSINFO table.res .even:not(:first-child),
+    .samo_container #bron_info .HOTELSINFO table.res .odd:not(:first-child) {
+        margin-top: 12px;
+    }
+    .samo_container #bron_info .HOTELSINFO table.res tbody td {
+        display: flex;
+        align-items: center;
+        white-space: normal;
+        min-height: 35px;
+    }
+
+    /* https://www.flaticon.com/free-icon/big-building_81718#term=hotel%20building&page=1&position=25 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(1)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        color: #366383;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNDYwLjY4OSA0NjAuNjg5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NjAuNjg5IDQ2MC42ODk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PGc+PGc+Cgk8cGF0aCBkPSJNMzQwLjQ5MSwxNy4wNjdDMzQwLjQ5MSw3LjY0LDMzMi44NDIsMCwzMjMuNDI4LDBIMTM3LjI1OWMtOS40MTMsMC0xNy4wNjEsNy42NC0xNy4wNjEsMTcuMDY3djIzLjYzMWgyMjAuMjkzVjE3LjA2N3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzM2NjM4MyIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCTxwYXRoIGQ9Ik00MjEuMTI0LDQyNi42ODZoLTM3LjA1M1Y3OC44MzhjMC05LjQyOC03LjY0OC0xNy4wNjgtMTcuMDYzLTE3LjA2OEg5My42NzljLTkuNDEyLDAtMTcuMDU5LDcuNjQxLTE3LjA1OSwxNy4wNjh2MzQ3Ljg0OSAgIEgzOS41NjZjLTkuNDE0LDAtMTcuMDYsNy42NDItMTcuMDYsMTcuMDY5djE2LjkzNGgxNDMuMTg5di02OS43NDdjMC00LjA2MywzLjI5My03LjM1Nyw3LjM2MS03LjM1N2gzNy45NTMgICBjNC4wNywwLDcuMzY1LDMuMjk0LDcuMzY1LDcuMzU3djY5Ljc0N2gyMy45NDN2LTY5Ljc0N2MwLTQuMDYzLDMuMjkzLTcuMzU3LDcuMzYxLTcuMzU3aDM3Ljk1NWM0LjA2OCwwLDcuMzYzLDMuMjk0LDcuMzYzLDcuMzU3ICAgdjY5Ljc0N2gxNDMuMTg4di0xNi45MzRDNDM4LjE4NCw0MzQuMzI4LDQzMC41MzgsNDI2LjY4Niw0MjEuMTI0LDQyNi42ODZ6IE0xNjQuNzM3LDM2My43NzljMCw0LjA2My0zLjI5Myw3LjM1NS03LjM2Myw3LjM1NSAgIGgtMzcuOTUzYy00LjA3MSwwLTcuMzYzLTMuMjkyLTcuMzYzLTcuMzU1di0zNy45NjdjMC00LjA2MywzLjI5Mi03LjM1NSw3LjM2My03LjM1NWgzNy45NTNjNC4wNywwLDcuMzYzLDMuMjkzLDcuMzYzLDcuMzU1ICAgVjM2My43Nzl6IE0xNjQuNzM3LDI4Ny4xNTZjMCw0LjA2NS0zLjI5Myw3LjM1NS03LjM2Myw3LjM1NWgtMzcuOTUzYy00LjA3MSwwLTcuMzYzLTMuMjkxLTcuMzYzLTcuMzU1di0zNy45NjcgICBjMC00LjA2MywzLjI5Mi03LjM1NSw3LjM2My03LjM1NWgzNy45NTNjNC4wNywwLDcuMzYzLDMuMjkzLDcuMzYzLDcuMzU1VjI4Ny4xNTZ6IE0xNjQuNzM3LDIxMC41MzMgICBjMCw0LjA2My0zLjI5Myw3LjM1NS03LjM2Myw3LjM1NWgtMzcuOTUzYy00LjA3MSwwLTcuMzYzLTMuMjkyLTcuMzYzLTcuMzU1di0zNy45NjdjMC00LjA2MywzLjI5Mi03LjM1NSw3LjM2My03LjM1NWgzNy45NTMgICBjNC4wNywwLDcuMzYzLDMuMjkzLDcuMzYzLDcuMzU1VjIxMC41MzN6IE0xNjQuNzM3LDEzMy45MWMwLDQuMDY0LTMuMjkzLDcuMzU1LTcuMzYzLDcuMzU1aC0zNy45NTMgICBjLTQuMDcxLDAtNy4zNjMtMy4yOTItNy4zNjMtNy4zNTVWOTUuOTQzYzAtNC4wNjMsMy4yOTItNy4zNTYsNy4zNjMtNy4zNTZoMzcuOTUzYzQuMDcsMCw3LjM2MywzLjI5NCw3LjM2Myw3LjM1NlYxMzMuOTF6ICAgIE0yNTYuNjg0LDM2My43NzljMCw0LjA2My0zLjI5Myw3LjM1NS03LjM2Myw3LjM1NWgtMzcuOTUzYy00LjA3LDAtNy4zNjEtMy4yOTItNy4zNjEtNy4zNTV2LTM3Ljk2NyAgIGMwLTQuMDYzLDMuMjkxLTcuMzU1LDcuMzYxLTcuMzU1aDM3Ljk1M2M0LjA3LDAsNy4zNjMsMy4yOTMsNy4zNjMsNy4zNTVWMzYzLjc3OXogTTI1Ni42ODQsMjg3LjE1NiAgIGMwLDQuMDY1LTMuMjkzLDcuMzU1LTcuMzYzLDcuMzU1aC0zNy45NTNjLTQuMDcsMC03LjM2MS0zLjI5MS03LjM2MS03LjM1NXYtMzcuOTY3YzAtNC4wNjMsMy4yOTEtNy4zNTUsNy4zNjEtNy4zNTVoMzcuOTUzICAgYzQuMDcsMCw3LjM2MywzLjI5Myw3LjM2Myw3LjM1NVYyODcuMTU2eiBNMjU2LjY4NCwyMTAuNTMzYzAsNC4wNjMtMy4yOTMsNy4zNTUtNy4zNjMsNy4zNTVoLTM3Ljk1MyAgIGMtNC4wNywwLTcuMzYxLTMuMjkyLTcuMzYxLTcuMzU1di0zNy45NjdjMC00LjA2MywzLjI5MS03LjM1NSw3LjM2MS03LjM1NWgzNy45NTNjNC4wNywwLDcuMzYzLDMuMjkzLDcuMzYzLDcuMzU1VjIxMC41MzN6ICAgIE0yNTYuNjg0LDEzMy45MWMwLDQuMDY0LTMuMjkzLDcuMzU1LTcuMzYzLDcuMzU1aC0zNy45NTNjLTQuMDcsMC03LjM2MS0zLjI5Mi03LjM2MS03LjM1NVY5NS45NDMgICBjMC00LjA2MywzLjI5MS03LjM1Niw3LjM2MS03LjM1NmgzNy45NTNjNC4wNywwLDcuMzYzLDMuMjk0LDcuMzYzLDcuMzU2VjEzMy45MXogTTM0OC42MzIsMzYzLjc3OSAgIGMwLDQuMDYzLTMuMjkzLDcuMzU1LTcuMzYzLDcuMzU1aC0zNy45NTNjLTQuMDcsMC03LjM2MS0zLjI5Mi03LjM2MS03LjM1NXYtMzcuOTY3YzAtNC4wNjMsMy4yOTEtNy4zNTUsNy4zNjEtNy4zNTVoMzcuOTUzICAgYzQuMDcsMCw3LjM2MywzLjI5Myw3LjM2Myw3LjM1NVYzNjMuNzc5eiBNMzQ4LjYzMiwyODcuMTU2YzAsNC4wNjUtMy4yOTMsNy4zNTUtNy4zNjMsNy4zNTVoLTM3Ljk1MyAgIGMtNC4wNywwLTcuMzYxLTMuMjkxLTcuMzYxLTcuMzU1di0zNy45NjdjMC00LjA2MywzLjI5MS03LjM1NSw3LjM2MS03LjM1NWgzNy45NTNjNC4wNywwLDcuMzYzLDMuMjkzLDcuMzYzLDcuMzU1VjI4Ny4xNTZ6ICAgIE0zNDguNjMyLDIxMC41MzNjMCw0LjA2My0zLjI5Myw3LjM1NS03LjM2Myw3LjM1NWgtMzcuOTUzYy00LjA3LDAtNy4zNjEtMy4yOTItNy4zNjEtNy4zNTV2LTM3Ljk2NyAgIGMwLTQuMDYzLDMuMjkxLTcuMzU1LDcuMzYxLTcuMzU1aDM3Ljk1M2M0LjA3LDAsNy4zNjMsMy4yOTMsNy4zNjMsNy4zNTVWMjEwLjUzM3ogTTM0OC42MzIsMTMzLjkxICAgYzAsNC4wNjQtMy4yOTMsNy4zNTUtNy4zNjMsNy4zNTVoLTM3Ljk1M2MtNC4wNywwLTcuMzYxLTMuMjkyLTcuMzYxLTcuMzU1Vjk1Ljk0M2MwLTQuMDYzLDMuMjkxLTcuMzU2LDcuMzYxLTcuMzU2aDM3Ljk1MyAgIGM0LjA3LDAsNy4zNjMsMy4yOTQsNy4zNjMsNy4zNTZWMTMzLjkxeiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgo8L2c+PC9nPiA8L3N2Zz4=");
+    }
+    /* https://www.flaticon.com/free-icon/map-marker_37134#term=map%20marker&page=1&position=24 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(2)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDMzLjQ2OCAzMy40NjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzLjQ2OCAzMy40Njg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48Zz4KCTxwYXRoIGQ9Ik0xNi43MzQsMEM5LjM3NSwwLDMuNDA4LDUuOTY2LDMuNDA4LDEzLjMyNWMwLDExLjA3NiwxMy4zMjYsMjAuMTQzLDEzLjMyNiwyMC4xNDNTMzAuMDYsMjMuNzM0LDMwLjA2LDEzLjMyNCAgIEMzMC4wNiw1Ljk2NSwyNC4wOTMsMCwxNi43MzQsMHogTTE2LjczNCwxOS42NzZjLTMuNTEsMC02LjM1NC0yLjg0NC02LjM1NC02LjM1MmMwLTMuNTA4LDIuODQ0LTYuMzUyLDYuMzU0LTYuMzUyICAgYzMuNTA4LTAuMDAxLDYuMzUyLDIuODQ1LDYuMzUyLDYuMzUzQzIzLjA4NSwxNi44MzMsMjAuMjQyLDE5LjY3NiwxNi43MzQsMTkuNjc2eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgo8L2c+PC9nPiA8L3N2Zz4=");
+    }
+    /* https://www.flaticon.com/free-icon/king-size-bed-with-two-pillows_73185#term=bed&page=1&position=92 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(3)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTY3LjI1NCAxNjcuMjU0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNjcuMjU0IDE2Ny4yNTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PGc+PHBhdGggZD0iTTE2Ny4yNDQsMTExLjQ1N2MtMC4wMDUtMC4yMjktMC4wMjQtMC40NTctMC4wNjktMC42ODJjLTAuMDA2LTAuMDI5LTAuMDE0LTAuMDU3LTAuMDIxLTAuMDg1ICBjLTAuMDQ0LTAuMTk5LTAuMTA3LTAuMzk1LTAuMTgyLTAuNTg4Yy0wLjAyNS0wLjA2My0wLjA1LTAuMTI2LTAuMDc3LTAuMTg4Yy0wLjAxOC0wLjA0LTAuMDMxLTAuMDgyLTAuMDUtMC4xMjFMMTU1LjE2LDg1Ljk1ICBjMy41OS0xLjQ0Miw2LjEzNC00Ljk1MSw2LjEzNC05LjA0OVYzMC42NjZjMC01LjYyMy00LjU3NS0xMC4xOTctMTAuMTk4LTEwLjE5N2MtMC42MTcsMC0xLjI0MywwLjA1Ni0xLjg1OCwwLjE2NyAgYy0yLjE1NSwwLjM4Ny00LjA5OCwxLjQ3OS01LjU2MywzLjAzNUMxMzQuMzIsMTIuOTMzLDEwNy45NzEsNy4yMjgsODIuODg4LDcuMjI4Yy0yNC40OSwwLTUwLjE4OCw1LjQzOS02MC4wOTYsMTUuNjkgIGMtMS4zNDUtMS4xNTUtMi45ODYtMS45NjItNC43NzUtMi4yODNjLTAuNjE1LTAuMTExLTEuMjQxLTAuMTY3LTEuODU4LTAuMTY3Yy01LjYyMywwLTEwLjE5OCw0LjU3NC0xMC4xOTgsMTAuMTk3djQ2LjIzNSAgYzAsNC4wOTgsMi41NDQsNy42MDgsNi4xMzQsOS4wNDlMMC40MDksMTA5Ljc5MmMtMC4wMiwwLjA0LTAuMDMyLDAuMDgxLTAuMDUsMC4xMjJjLTAuMDI4LDAuMDYyLTAuMDUyLDAuMTI0LTAuMDc3LDAuMTg3ICBjLTAuMDc1LDAuMTkzLTAuMTM4LDAuMzg4LTAuMTgyLDAuNTg3Yy0wLjAwNywwLjAzLTAuMDE1LDAuMDU4LTAuMDIxLDAuMDg4Yy0wLjA0NSwwLjIyNS0wLjA2MywwLjQ1My0wLjA2OSwwLjY4MSAgQzAuMDA5LDExMS40OSwwLDExMS41MiwwLDExMS41NTN2MzAuNjM5YzAsMi4yMDksMS43OTEsNCw0LDRoMTAuNzgydjkuODM0YzAsMi4yMDksMS43OTEsNCw0LDRoMTcuMDY4YzIuMjA5LDAsNC0xLjc5MSw0LTR2LTkuODM0ICBoODl2OS44MzRjMCwyLjIwOSwxLjc5MSw0LDQsNGgxNy4wNjljMi4yMDksMCw0LTEuNzkxLDQtNHYtOS44MzRoOS4zMzRjMi4yMDksMCw0LTEuNzkxLDQtNHYtMzAuNjM5ICBDMTY3LjI1NCwxMTEuNTIsMTY3LjI0NSwxMTEuNDksMTY3LjI0NCwxMTEuNDU3eiBNOTMuNDg4LDQ1LjY3M2MwLTIuMjg5LDEuODYyLTQuMTUxLDQuMTUtNC4xNTFoMzEuMzEgIGMyLjI4OCwwLDQuMTUsMS44NjIsNC4xNSw0LjE1MXYxOC4yMDRjMCwyLjI4OC0xLjg2Miw0LjE1LTQuMTUsNC4xNWgtMzEuMzFjLTIuMjg4LDAtNC4xNS0xLjg2Mi00LjE1LTQuMTVWNDUuNjczeiBNMzQuMTU0LDQ1LjY3MyAgYzAtMi4yODksMS44NjItNC4xNTEsNC4xNTEtNC4xNTFoMzEuMzFjMi4yODgsMCw0LjE1LDEuODYyLDQuMTUsNC4xNTF2MTguMjA0YzAsMi4yODgtMS44NjIsNC4xNS00LjE1LDQuMTVoLTMxLjMxICBjLTIuMjg5LDAtNC4xNTEtMS44NjItNC4xNTEtNC4xNVY0NS42NzN6IE0xMC40MTYsMTA3LjU1M0wyOC4zOSw3MC44NzdjMi4yMDMsMy4xMSw1LjgyMiw1LjE1LDkuOTE1LDUuMTVoMzEuMzEgIGM0LjUwMiwwLDguNDMxLTIuNDY2LDEwLjUzLTYuMTEzaDYuOTY0YzIuMDk5LDMuNjQ3LDYuMDI4LDYuMTEzLDEwLjUzLDYuMTEzaDMxLjMxYzQuMDkzLDAsNy43MTItMi4wNCw5LjkxNS01LjE1MWwxNy45NzUsMzYuNjc2ICBIMTAuNDE2eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPjwvZz4gPC9zdmc+");
+    }
+    /* https://www.flaticon.com/free-icon/multiple-users-silhouette_33308#term=people&page=1&position=2 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(4)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDgwLjEzIDgwLjEzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA4MC4xMyA4MC4xMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPgoJPHBhdGggZD0iTTQ4LjM1NSwxNy45MjJjMy43MDUsMi4zMjMsNi4zMDMsNi4yNTQsNi43NzYsMTAuODE3YzEuNTExLDAuNzA2LDMuMTg4LDEuMTEyLDQuOTY2LDEuMTEyICAgYzYuNDkxLDAsMTEuNzUyLTUuMjYxLDExLjc1Mi0xMS43NTFjMC02LjQ5MS01LjI2MS0xMS43NTItMTEuNzUyLTExLjc1MkM1My42NjgsNi4zNSw0OC40NTMsMTEuNTE3LDQ4LjM1NSwxNy45MjJ6IE00MC42NTYsNDEuOTg0ICAgYzYuNDkxLDAsMTEuNzUyLTUuMjYyLDExLjc1Mi0xMS43NTJzLTUuMjYyLTExLjc1MS0xMS43NTItMTEuNzUxYy02LjQ5LDAtMTEuNzU0LDUuMjYyLTExLjc1NCwxMS43NTJTMzQuMTY2LDQxLjk4NCw0MC42NTYsNDEuOTg0ICAgeiBNNDUuNjQxLDQyLjc4NWgtOS45NzJjLTguMjk3LDAtMTUuMDQ3LDYuNzUxLTE1LjA0NywxNS4wNDh2MTIuMTk1bDAuMDMxLDAuMTkxbDAuODQsMC4yNjMgICBjNy45MTgsMi40NzQsMTQuNzk3LDMuMjk5LDIwLjQ1OSwzLjI5OWMxMS4wNTksMCwxNy40NjktMy4xNTMsMTcuODY0LTMuMzU0bDAuNzg1LTAuMzk3aDAuMDg0VjU3LjgzMyAgIEM2MC42ODgsNDkuNTM2LDUzLjkzOCw0Mi43ODUsNDUuNjQxLDQyLjc4NXogTTY1LjA4NCwzMC42NTNoLTkuODk1Yy0wLjEwNywzLjk1OS0xLjc5Nyw3LjUyNC00LjQ3LDEwLjA4OCAgIGM3LjM3NSwyLjE5MywxMi43NzEsOS4wMzIsMTIuNzcxLDE3LjExdjMuNzU4YzkuNzctMC4zNTgsMTUuNC0zLjEyNywxNS43NzEtMy4zMTNsMC43ODUtMC4zOThoMC4wODRWNDUuNjk5ICAgQzgwLjEzLDM3LjQwMyw3My4zOCwzMC42NTMsNjUuMDg0LDMwLjY1M3ogTTIwLjAzNSwyOS44NTNjMi4yOTksMCw0LjQzOC0wLjY3MSw2LjI1LTEuODE0YzAuNTc2LTMuNzU3LDIuNTktNy4wNCw1LjQ2Ny05LjI3NiAgIGMwLjAxMi0wLjIyLDAuMDMzLTAuNDM4LDAuMDMzLTAuNjZjMC02LjQ5MS01LjI2Mi0xMS43NTItMTEuNzUtMTEuNzUyYy02LjQ5MiwwLTExLjc1Miw1LjI2MS0xMS43NTIsMTEuNzUyICAgQzguMjgzLDI0LjU5MSwxMy41NDMsMjkuODUzLDIwLjAzNSwyOS44NTN6IE0zMC41ODksNDAuNzQxYy0yLjY2LTIuNTUxLTQuMzQ0LTYuMDk3LTQuNDY3LTEwLjAzMiAgIGMtMC4zNjctMC4wMjctMC43My0wLjA1Ni0xLjEwNC0wLjA1NmgtOS45NzFDNi43NSwzMC42NTMsMCwzNy40MDMsMCw0NS42OTl2MTIuMTk3bDAuMDMxLDAuMTg4bDAuODQsMC4yNjUgICBjNi4zNTIsMS45ODMsMTIuMDIxLDIuODk3LDE2Ljk0NSwzLjE4NXYtMy42ODNDMTcuODE4LDQ5Ljc3MywyMy4yMTIsNDIuOTM2LDMwLjU4OSw0MC43NDF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg==");
+    }
+    /* https://www.flaticon.com/free-icon/restaurant-interface-symbol-of-fork-and-knife-couple_37481#term=restaurant&page=1&position=13 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(5)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDU0MC4yMDEgNTQwLjIwMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTQwLjIwMSA1NDAuMjAxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTY5LjQ2NywxOTQuMTAydjMxMC4xMzZjMCw4LjA4NiwyLjk1LDE1LjA4LDguODYyLDIwLjk4NmM1LjgwOCw1LjgwOSwxMi42ODEsOC43MzIsMjAuNiw4LjgyNCAgICBjNy45MTQtMC4wOTIsMTQuNzkyLTMuMDE2LDIwLjYwNi04LjgyNGM1LjkwNi01LjkwNiw4Ljg1NS0xMi45LDguODU1LTIwLjk4NlYxOTQuMTAyYzguODYyLTMuMTAzLDQyLjA4MS0zMi43MTEsNDIuMDgxLTQyLjIwNCAgICBWMjcuMTYxYzAtNC4wMzMtMS40ODEtNy41MzQtNC40MzEtMTAuNDljLTIuOTU2LTIuOTUtNi40NTctNC40MzEtMTAuNDktNC40MzFjLTQuMDQ1LDAtNy41NCwxLjQ4MS0xMC40OSw0LjQzMSAgICBjLTIuOTU2LDIuOTYyLTQuNDMxLDYuNDU3LTQuNDMxLDEwLjQ5djk2Ljk5YzAsNC4wNDUtMS40ODEsNy41NC00LjQzMSwxMC40OWMtMi45NTYsMi45NTYtNi40NTEsNC40MjUtMTAuNDksNC40MjUgICAgYy00LjA0NSwwLTcuNTQtMS40NjktMTAuNDktNC40MjVjLTIuOTUtMi45NS00LjQzMS02LjQ1MS00LjQzMS0xMC40OXYtOTYuOTljMC00LjAzMy0xLjQ4MS03LjUzNC00LjQzMS0xMC40OSAgICBjLTIuOTUtMi45NS02LjQ1LTQuNDMxLTEwLjQ4OS00LjQzMWMtNC4wNDUsMC03LjU0LDEuNDgxLTEwLjQ5LDQuNDMxYy0yLjk1NiwyLjk2Mi00LjQzMSw2LjQ1Ny00LjQzMSwxMC40OXY5Ni45OSAgICBjMCw0LjA0NS0xLjQ4MSw3LjU0LTQuNDMxLDEwLjQ5Yy0yLjk1NiwyLjk1Ni02LjQ1MSw0LjQyNS0xMC40OSw0LjQyNWMtNC4wNDUsMC03LjU0LTEuNDY5LTEwLjQ5LTQuNDI1ICAgIGMtMi45NTYtMi45NS00LjQzMS02LjQ1MS00LjQzMS0xMC40OXYtOTYuOTljMC00LjAzMy0xLjQ3NS03LjUzNC00LjQzMS0xMC40OWMtMi45NS0yLjk1LTYuNDUtNC40MzEtMTAuNDktNC40MzEgICAgYy00LjA0NSwwLTcuNTQsMS40ODEtMTAuNDg5LDQuNDMxYy0yLjk1LDIuOTYyLTQuNDMxLDYuNDU3LTQuNDMxLDEwLjQ5djEyNC43MzJDMTIxLjI2NiwxNjEuMzg0LDE2MC42MDUsMTkwLjk5MywxNjkuNDY3LDE5NC4xMDIgICAgeiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0xOTkuMzA4LDUzNC4wOGMtMC4xMjksMC0wLjI1MS0wLjAzNy0wLjM4LTAuMDM3Yy0wLjEyOCwwLTAuMjQ1LDAuMDM3LTAuMzc5LDAuMDM3SDE5OS4zMDh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTM4OS44NDgsNTQwLjIwMWMtMC4xMjksMC0wLjI1LTAuMDM3LTAuMzc5LTAuMDM3cy0wLjI1MiwwLjAzNy0wLjM3OSwwLjAzN0gzODkuODQ4eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0zMjYuMTM5LDI2OC41ODhoMzMuODY5djI0MS43NzFjMCw4LjA4NCwyLjk0OSwxNS4wOCw4Ljg1NSwyMC45ODRjNS44MTIsNS44MDksMTIuNjg2LDguNzM0LDIwLjYwNSw4LjgyNiAgICBjNy45MTItMC4wOTIsMTQuNzkxLTMuMDE4LDIwLjYwNS04LjgyNmM1LjkwNi01LjkwNCw4Ljg2MS0xMi45LDguODYxLTIwLjk4NFYxNC45MjFjMC00LjAzMy0xLjQ4LTcuNTM0LTQuNDMtMTAuNDkgICAgQzQxMS41NDksMS40ODEsNDA4LjA1NSwwLDQwNC4wMTYsMGgtMTAuNzIzYy0yMC41MiwwLTM4LjA4NCw3LjMwOC01Mi42OTMsMjEuOTE2Yy0xNC42MDcsMTQuNjE0LTIxLjkxNCwzMi4xNzktMjEuOTE0LDUyLjY5MyAgICB2MTg2LjUyYzAsMi4wMiwwLjc0LDMuNzcsMi4yMTUsNS4yNDVDMzIyLjM2OSwyNjcuODQ4LDMyNC4xMTksMjY4LjU4OCwzMjYuMTM5LDI2OC41ODh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPg==");
+    }
+    /* https://www.flaticon.com/free-icon/calendar_61469#term=calendar&page=1&position=11 */
+    .samo_container #bron_info .HOTELSINFO table.res tbody td:not(.hotel_note):not(.claim_banner):nth-child(6)::before {
+        position: relative;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDQ4OC4xNTIgNDg4LjE1MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg4LjE1MiA0ODguMTUyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTc3Ljg1NCwyNjkuMzExYzAtNi4xMTUtNC45Ni0xMS4wNjktMTEuMDgtMTEuMDY5aC0zOC42NjVjLTYuMTEzLDAtMTEuMDc0LDQuOTU0LTExLjA3NCwxMS4wNjl2MzguNjYgICAgYzAsNi4xMjMsNC45NjEsMTEuMDc5LDExLjA3NCwxMS4wNzloMzguNjY1YzYuMTIsMCwxMS4wOC00Ljk1NiwxMS4wOC0xMS4wNzlWMjY5LjMxMUwxNzcuODU0LDI2OS4zMTF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTI3NC40ODMsMjY5LjMxMWMwLTYuMTE1LTQuOTYxLTExLjA2OS0xMS4wNjktMTEuMDY5aC0zOC42N2MtNi4xMTMsMC0xMS4wNzQsNC45NTQtMTEuMDc0LDExLjA2OXYzOC42NiAgICBjMCw2LjEyMyw0Ljk2MSwxMS4wNzksMTEuMDc0LDExLjA3OWgzOC42N2M2LjEwOCwwLDExLjA2OS00Ljk1NiwxMS4wNjktMTEuMDc5VjI2OS4zMTF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTM3MS4xMTcsMjY5LjMxMWMwLTYuMTE1LTQuOTYxLTExLjA2OS0xMS4wNzQtMTEuMDY5aC0zOC42NjVjLTYuMTIsMC0xMS4wOCw0Ljk1NC0xMS4wOCwxMS4wNjl2MzguNjYgICAgYzAsNi4xMjMsNC45NiwxMS4wNzksMTEuMDgsMTEuMDc5aDM4LjY2NWM2LjExMywwLDExLjA3NC00Ljk1NiwxMS4wNzQtMTEuMDc5VjI2OS4zMTF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTE3Ny44NTQsMzY1Ljk1YzAtNi4xMjUtNC45Ni0xMS4wNzUtMTEuMDgtMTEuMDc1aC0zOC42NjVjLTYuMTEzLDAtMTEuMDc0LDQuOTUtMTEuMDc0LDExLjA3NXYzOC42NTMgICAgYzAsNi4xMTksNC45NjEsMTEuMDc0LDExLjA3NCwxMS4wNzRoMzguNjY1YzYuMTIsMCwxMS4wOC00Ljk1NiwxMS4wOC0xMS4wNzRWMzY1Ljk1TDE3Ny44NTQsMzY1Ljk1eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0yNzQuNDgzLDM2NS45NWMwLTYuMTI1LTQuOTYxLTExLjA3NS0xMS4wNjktMTEuMDc1aC0zOC42N2MtNi4xMTMsMC0xMS4wNzQsNC45NS0xMS4wNzQsMTEuMDc1djM4LjY1MyAgICBjMCw2LjExOSw0Ljk2MSwxMS4wNzQsMTEuMDc0LDExLjA3NGgzOC42N2M2LjEwOCwwLDExLjA2OS00Ljk1NiwxMS4wNjktMTEuMDc0VjM2NS45NXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzM2NjM4MyIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCQk8cGF0aCBkPSJNMzcxLjExNywzNjUuOTVjMC02LjEyNS00Ljk2MS0xMS4wNzUtMTEuMDY5LTExLjA3NWgtMzguNjdjLTYuMTIsMC0xMS4wOCw0Ljk1LTExLjA4LDExLjA3NXYzOC42NTMgICAgYzAsNi4xMTksNC45NiwxMS4wNzQsMTEuMDgsMTEuMDc0aDM4LjY3YzYuMTA4LDAsMTEuMDY5LTQuOTU2LDExLjA2OS0xMS4wNzRWMzY1Ljk1TDM3MS4xMTcsMzY1Ljk1eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBzdHlsZT0iZmlsbDojMzY2MzgzIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik00NDAuMjU0LDU0LjM1NHY1OS4wNWMwLDI2LjY5LTIxLjY1Miw0OC4xOTgtNDguMzM4LDQ4LjE5OGgtMzAuNDkzYy0yNi42ODgsMC00OC42MjctMjEuNTA4LTQ4LjYyNy00OC4xOThWNTQuMTQyICAgIGgtMTM3LjQ0djU5LjI2MmMwLDI2LjY5LTIxLjkzOCw0OC4xOTgtNDguNjIyLDQ4LjE5OEg5Ni4yMzVjLTI2LjY4NSwwLTQ4LjMzNi0yMS41MDgtNDguMzM2LTQ4LjE5OHYtNTkuMDUgICAgQzI0LjU3Niw1NS4wNTcsNS40MTEsNzQuMzU2LDUuNDExLDk4LjA3N3YzNDYuMDYxYzAsMjQuMTY3LDE5LjU4OCw0NC4wMTUsNDMuNzU1LDQ0LjAxNWgzODkuODIgICAgYzI0LjEzMSwwLDQzLjc1NS0xOS44ODksNDMuNzU1LTQ0LjAxNVY5OC4wNzdDNDgyLjc0MSw3NC4zNTYsNDYzLjU3Nyw1NS4wNTcsNDQwLjI1NCw1NC4zNTR6IE00MjYuMDkxLDQyMi41ODggICAgYzAsMTAuNDQ0LTguNDY4LDE4LjkxNy0xOC45MTYsMTguOTE3SDgwLjE0NGMtMTAuNDQ4LDAtMTguOTE2LTguNDczLTE4LjkxNi0xOC45MTdWMjQzLjgzNWMwLTEwLjQ0OCw4LjQ2Ny0xOC45MjEsMTguOTE2LTE4LjkyMSAgICBoMzI3LjAzYzEwLjQ0OCwwLDE4LjkxNiw4LjQ3MywxOC45MTYsMTguOTIxTDQyNi4wOTEsNDIyLjU4OEw0MjYuMDkxLDQyMi41ODh6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTk2LjEyOCwxMjkuOTQ1aDMwLjE2MmM5LjE1NSwwLDE2LjU3OC03LjQxMiwxNi41NzgtMTYuNTY3VjE2LjU3M0MxNDIuODY4LDcuNDE3LDEzNS40NDUsMCwxMjYuMjksMEg5Ni4xMjggICAgQzg2Ljk3MiwwLDc5LjU1LDcuNDE3LDc5LjU1LDE2LjU3M3Y5Ni44MDVDNzkuNTUsMTIyLjUzMyw4Ni45NzIsMTI5Ljk0NSw5Ni4xMjgsMTI5Ljk0NXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzM2NjM4MyIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCQk8cGF0aCBkPSJNMzYxLjAzNSwxMjkuOTQ1aDMwLjE2MmM5LjE0OSwwLDE2LjU3Mi03LjQxMiwxNi41NzItMTYuNTY3VjE2LjU3M0M0MDcuNzcsNy40MTcsNDAwLjM0NywwLDM5MS4xOTcsMGgtMzAuMTYyICAgIGMtOS4xNTQsMC0xNi41NzcsNy40MTctMTYuNTc3LDE2LjU3M3Y5Ni44MDVDMzQ0LjQ1OCwxMjIuNTMzLDM1MS44ODEsMTI5Ljk0NSwzNjEuMDM1LDEyOS45NDV6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPg==");
+    }
+
+    /* Freights, insures and additional services */
+    .samo_container #bron_info .FREIGHTSINFO table.res,
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody,
+    .samo_container #bron_info .INSURESINFO table.res,
+    .samo_container #bron_info .INSURESINFO table.res tbody,
+    .samo_container #bron_info .ASERVICES table.res,
+    .samo_container #bron_info .ASERVICES table.res tbody {
+        display: block;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res thead,
+    .samo_container #bron_info .INSURESINFO table.res thead,
+    .samo_container #bron_info .ASERVICES table.res thead {
+        display: none;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res .even,
+    .samo_container #bron_info .FREIGHTSINFO table.res .odd,
+    .samo_container #bron_info .INSURESINFO table.res .even,
+    .samo_container #bron_info .INSURESINFO table.res .odd,
+    .samo_container #bron_info .ASERVICES table.res .even,
+    .samo_container #bron_info .ASERVICES table.res .odd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px 0;
+        margin-top: 12px;
+        background-color: var(--row-even-bgcolor);
+        border-color: transparent;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res .even:first-child,
+    .samo_container #bron_info .FREIGHTSINFO table.res .odd:first-child,
+    .samo_container #bron_info .INSURESINFO table.res .even:first-child,
+    .samo_container #bron_info .INSURESINFO table.res .odd:first-child,
+    .samo_container #bron_info .ASERVICES table.res .even:first-child,
+    .samo_container #bron_info .ASERVICES table.res .odd:first-child {
+        margin-top: 0;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res .even td,
+    .samo_container #bron_info .FREIGHTSINFO table.res .odd td,
+    .samo_container #bron_info .INSURESINFO table.res .even td,
+    .samo_container #bron_info .INSURESINFO table.res .odd td,
+    .samo_container #bron_info .ASERVICES table.res .even td,
+    .samo_container #bron_info .ASERVICES table.res .odd td {
+        background-color: var(--row-even-bgcolor);
+        border-color: transparent;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res .note,
+    .samo_container #bron_info .INSURESINFO table.res .note,
+    .samo_container #bron_info .ASERVICES table.res .note {
+        display: flex;
+        margin: 0;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res .note td,
+    .samo_container #bron_info .INSURESINFO table.res .note td,
+    .samo_container #bron_info .ASERVICES table.res .note td {
+        margin: 0;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody tr,
+    .samo_container #bron_info .INSURESINFO table.res tbody tr,
+    .samo_container #bron_info .ASERVICES table.res tbody tr {
+        display: block;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td,
+    .samo_container #bron_info .INSURESINFO table.res tbody td,
+    .samo_container #bron_info .ASERVICES table.res tbody td {
+        flex: 1 1;
+        display: flex;
+        align-items: center;
+        min-height: 25px;
+        height: auto;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td:nth-child(1),
+    .samo_container #bron_info .INSURESINFO table.res tbody td:nth-child(1),
+    .samo_container #bron_info .ASERVICES table.res tbody td:nth-child(1) {
+        flex: 1 0 100%;
+        padding-bottom: 5px;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td:nth-child(2),
+    .samo_container #bron_info .INSURESINFO table.res tbody td:nth-child(2),
+    .samo_container #bron_info .ASERVICES table.res tbody td:nth-child(2) {
+        flex: 2 1;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td.fr_peoplecount,
+    .samo_container #bron_info .INSURESINFO table.res tbody td.insure_count,
+    .samo_container #bron_info .ASERVICES table.res tbody td.service_count {
+        flex: 0 1;
+        display: flex;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td:last-child:not(:first-child),
+    .samo_container #bron_info .INSURESINFO table.res tbody td:last-child:not(:first-child),
+    .samo_container #bron_info .ASERVICES table.res tbody td:last-child:not(:first-child) {
+        flex: 0 1;
+    }
+    /* https://www.flaticon.com/free-icon/multiple-users-silhouette_33308#term=people&page=1&position=2 */
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody td.fr_peoplecount::before,
+    .samo_container #bron_info .INSURESINFO table.res tbody td.insure_count::before {
+        position: relative;
+        content: "";
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDgwLjEzIDgwLjEzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA4MC4xMyA4MC4xMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPgoJPHBhdGggZD0iTTQ4LjM1NSwxNy45MjJjMy43MDUsMi4zMjMsNi4zMDMsNi4yNTQsNi43NzYsMTAuODE3YzEuNTExLDAuNzA2LDMuMTg4LDEuMTEyLDQuOTY2LDEuMTEyICAgYzYuNDkxLDAsMTEuNzUyLTUuMjYxLDExLjc1Mi0xMS43NTFjMC02LjQ5MS01LjI2MS0xMS43NTItMTEuNzUyLTExLjc1MkM1My42NjgsNi4zNSw0OC40NTMsMTEuNTE3LDQ4LjM1NSwxNy45MjJ6IE00MC42NTYsNDEuOTg0ICAgYzYuNDkxLDAsMTEuNzUyLTUuMjYyLDExLjc1Mi0xMS43NTJzLTUuMjYyLTExLjc1MS0xMS43NTItMTEuNzUxYy02LjQ5LDAtMTEuNzU0LDUuMjYyLTExLjc1NCwxMS43NTJTMzQuMTY2LDQxLjk4NCw0MC42NTYsNDEuOTg0ICAgeiBNNDUuNjQxLDQyLjc4NWgtOS45NzJjLTguMjk3LDAtMTUuMDQ3LDYuNzUxLTE1LjA0NywxNS4wNDh2MTIuMTk1bDAuMDMxLDAuMTkxbDAuODQsMC4yNjMgICBjNy45MTgsMi40NzQsMTQuNzk3LDMuMjk5LDIwLjQ1OSwzLjI5OWMxMS4wNTksMCwxNy40NjktMy4xNTMsMTcuODY0LTMuMzU0bDAuNzg1LTAuMzk3aDAuMDg0VjU3LjgzMyAgIEM2MC42ODgsNDkuNTM2LDUzLjkzOCw0Mi43ODUsNDUuNjQxLDQyLjc4NXogTTY1LjA4NCwzMC42NTNoLTkuODk1Yy0wLjEwNywzLjk1OS0xLjc5Nyw3LjUyNC00LjQ3LDEwLjA4OCAgIGM3LjM3NSwyLjE5MywxMi43NzEsOS4wMzIsMTIuNzcxLDE3LjExdjMuNzU4YzkuNzctMC4zNTgsMTUuNC0zLjEyNywxNS43NzEtMy4zMTNsMC43ODUtMC4zOThoMC4wODRWNDUuNjk5ICAgQzgwLjEzLDM3LjQwMyw3My4zOCwzMC42NTMsNjUuMDg0LDMwLjY1M3ogTTIwLjAzNSwyOS44NTNjMi4yOTksMCw0LjQzOC0wLjY3MSw2LjI1LTEuODE0YzAuNTc2LTMuNzU3LDIuNTktNy4wNCw1LjQ2Ny05LjI3NiAgIGMwLjAxMi0wLjIyLDAuMDMzLTAuNDM4LDAuMDMzLTAuNjZjMC02LjQ5MS01LjI2Mi0xMS43NTItMTEuNzUtMTEuNzUyYy02LjQ5MiwwLTExLjc1Miw1LjI2MS0xMS43NTIsMTEuNzUyICAgQzguMjgzLDI0LjU5MSwxMy41NDMsMjkuODUzLDIwLjAzNSwyOS44NTN6IE0zMC41ODksNDAuNzQxYy0yLjY2LTIuNTUxLTQuMzQ0LTYuMDk3LTQuNDY3LTEwLjAzMiAgIGMtMC4zNjctMC4wMjctMC43My0wLjA1Ni0xLjEwNC0wLjA1NmgtOS45NzFDNi43NSwzMC42NTMsMCwzNy40MDMsMCw0NS42OTl2MTIuMTk3bDAuMDMxLDAuMTg4bDAuODQsMC4yNjUgICBjNi4zNTIsMS45ODMsMTIuMDIxLDIuODk3LDE2Ljk0NSwzLjE4NXYtMy42ODNDMTcuODE4LDQ5Ljc3MywyMy4yMTIsNDIuOTM2LDMwLjU4OSw0MC43NDF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg==");
+    }
+    /* https://www.flaticon.com/free-icon/shopping-cart-black-shape_25619?term=shopping%20cart&page=1&position=9 */
+    .samo_container #bron_info .ASERVICES table.res tbody td.service_count::before {
+        position: relative;
+        content: "";
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDQ3NS4wODQgNDc1LjA4NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc1LjA4NCA0NzUuMDg1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzY1LjQ0Niw0MDEuOTk4YzAsMTAuMDkyLDMuNTc5LDE4LjcwMiwxMC43MTEsMjUuODM0YzcuMTMyLDcuMTM5LDE1Ljc0OSwxMC43MTEsMjUuODQ1LDEwLjcxMSAgICBjMTAuMDgxLDAsMTguNjk4LTMuNTcyLDI1LjgzLTEwLjcxMWM3LjEzOS03LjEzMiwxMC43MTEtMTUuNzQyLDEwLjcxMS0yNS44MzRzLTMuNTY4LTE4LjcwMi0xMC43MTEtMjUuODQxICAgIGMtNy4xMzItNy4xMzItMTUuNzQ5LTEwLjcwNC0yNS44My0xMC43MDRjLTEwLjA5NiwwLTE4LjcxMywzLjU3Mi0yNS44NDUsMTAuNzA0QzM2OS4wMjUsMzgzLjI5NiwzNjUuNDQ2LDM5MS45MDYsMzY1LjQ0Niw0MDEuOTk4ICAgIHoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzM2NjM4MyIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCQk8cGF0aCBkPSJNNDY5LjY1OCw3OC41MWMtMy42MTgtMy42MTctNy44OTgtNS40MjYtMTIuODQ4LTUuNDI2SDExMy45MThjLTAuMTkzLTEuMzMxLTAuNjIxLTMuNzU2LTEuMjg3LTcuMjc3ICAgIGMtMC42NjYtMy41MjMtMS4xODgtNi4zMjktMS41NjktOC40MjVjLTAuMzgzLTIuMDg3LTEuMDkzLTQuNjExLTIuMTQyLTcuNTYxYy0xLjA0Ny0yLjk1Mi0yLjI4NC01LjI4Ni0zLjcxMS02Ljk5NSAgICBjLTEuNDI1LTEuNzE4LTMuMzI4LTMuMTg5LTUuNzA4LTQuNDNjLTIuMzc4LTEuMjMzLTUuMDkyLTEuODUzLTguMTM2LTEuODUzSDE4LjI3NmMtNC45NTIsMC05LjIzNCwxLjgxMi0xMi44NSw1LjQyNCAgICBDMS44MDksNDUuNTgzLDAsNDkuODY4LDAsNTQuODE2czEuODA5LDkuMjMxLDUuNDI2LDEyLjg0N2MzLjYxOSwzLjYxNyw3LjkwMiw1LjQyNCwxMi44NSw1LjQyNGg1OC4yMzdsNTAuNTMyLDIzNC45NzYgICAgYy0wLjM3OCwwLjc2LTIuMzI5LDQuMzczLTUuODUyLDEwLjg0OGMtMy41MjEsNi40NzUtNi4zMjgsMTIuMTM1LTguNDIsMTYuOTg4Yy0yLjA5Myw0Ljg1OS0zLjE0LDguNjE2LTMuMTQsMTEuMjc5ICAgIGMwLDQuOTQ4LDEuODA5LDkuMjMyLDUuNDI0LDEyLjg1NGMzLjYyMSwzLjYwNiw3LjkwMiw1LjQyMSwxMi44NTEsNS40MjFoMTguMjcyaDI1NS44MTVoMTguMjYxYzQuOTQ4LDAsOS4yMzItMS44MTQsMTIuODQ3LTUuNDIxICAgIGMzLjYyLTMuNjIxLDUuNDI3LTcuOTA1LDUuNDI3LTEyLjg1NGMwLTQuOTQ5LTEuODA3LTkuMjMzLTUuNDI3LTEyLjg0N2MtMy42MTQtMy42MTQtNy44OTgtNS40MjgtMTIuODQ3LTUuNDI4aC0yNjIuNjYgICAgYzQuNTctOS4xMzgsNi44NTQtMTUuMjIyLDYuODU0LTE4LjI2OGMwLTEuOTA5LTAuMjM4LTQuMDA0LTAuNzE1LTYuMjgzcy0xLjA0Ny00LjgwNS0xLjcxMy03LjU2OSAgICBjLTAuNjY3LTIuNzUyLTEuMDkzLTQuNzk5LTEuMjgzLTYuMTMzbDI5OC4wNzctMzQuODMxYzQuNzUzLTAuNTc1LDguNjU4LTIuNjE0LDExLjcwMy02LjE0YzMuMDQ2LTMuNTE4LDQuNTY1LTcuNTYyLDQuNTY1LTEyLjEzMyAgICBWOTEuMzYzQzQ3NS4wODIsODYuNDE1LDQ3My4yNzgsODIuMTMyLDQ2OS42NTgsNzguNTF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiMzNjYzODMiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CgkJPHBhdGggZD0iTTEwOS42MzIsNDAxLjk5OGMwLDEwLjA5MiwzLjU2NywxOC43MDIsMTAuNzA2LDI1LjgzNGM3LjE0MSw3LjEzOSwxNS43NSwxMC43MTEsMjUuODQxLDEwLjcxMSAgICBjMTAuMDg1LDAsMTguNjk5LTMuNTcyLDI1LjgzNS0xMC43MTFjNy4xMzktNy4xMzIsMTAuNzEtMTUuNzQyLDEwLjcxLTI1LjgzNHMtMy41NjgtMTguNzAyLTEwLjcxLTI1Ljg0MSAgICBjLTcuMTM3LTcuMTMyLTE1Ljc1LTEwLjcwNC0yNS44MzUtMTAuNzA0Yy0xMC4wOSwwLTE4LjcwNCwzLjU3Mi0yNS44NDEsMTAuNzA0QzExMy4yMDMsMzgzLjI5NiwxMDkuNjMyLDM5MS45MDYsMTA5LjYzMiw0MDEuOTk4eiAgICAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzM2NjM4MyIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+");
+    }
+
+    .samo_container #bron_info .INSURESINFO table.res tbody td .delete_additional_insure {
+        display: block;
+        float: none;
+        width: 24px;
+        height: 24px;
+        font-size: 0;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    /* https://www.flaticon.com/free-icon/delete_32178#term=cross&page=1&position=15 */
+    .samo_container #bron_info .INSURESINFO table.res tbody td .delete_additional_insure::before {
+        position: relative;
+        display: block;
+        content: "";
+        width: 18px;
+        height: 18px;
+        margin: 0 auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDM0OC4zMzMgMzQ4LjMzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzQ4LjMzMyAzNDguMzM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PGc+Cgk8cGF0aCBkPSJNMzM2LjU1OSw2OC42MTFMMjMxLjAxNiwxNzQuMTY1bDEwNS41NDMsMTA1LjU0OWMxNS42OTksMTUuNzA1LDE1LjY5OSw0MS4xNDUsMCw1Ni44NSAgIGMtNy44NDQsNy44NDQtMTguMTI4LDExLjc2OS0yOC40MDcsMTEuNzY5Yy0xMC4yOTYsMC0yMC41ODEtMy45MTktMjguNDE5LTExLjc2OUwxNzQuMTY3LDIzMS4wMDNMNjguNjA5LDMzNi41NjMgICBjLTcuODQzLDcuODQ0LTE4LjEyOCwxMS43NjktMjguNDE2LDExLjc2OWMtMTAuMjg1LDAtMjAuNTYzLTMuOTE5LTI4LjQxMy0xMS43NjljLTE1LjY5OS0xNS42OTgtMTUuNjk5LTQxLjEzOSwwLTU2Ljg1ICAgbDEwNS41NC0xMDUuNTQ5TDExLjc3NCw2OC42MTFjLTE1LjY5OS0xNS42OTktMTUuNjk5LTQxLjE0NSwwLTU2Ljg0NGMxNS42OTYtMTUuNjg3LDQxLjEyNy0xNS42ODcsNTYuODI5LDBsMTA1LjU2MywxMDUuNTU0ICAgTDI3OS43MjEsMTEuNzY3YzE1LjcwNS0xNS42ODcsNDEuMTM5LTE1LjY4Nyw1Ni44MzIsMEMzNTIuMjU4LDI3LjQ2NiwzNTIuMjU4LDUyLjkxMiwzMzYuNTU5LDY4LjYxMXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6I0QxMkY0QSIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KPC9nPjwvZz4gPC9zdmc+");
+    }
+
+    /* GDS flights */
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody.filterOptions {
+        margin-bottom: 12px;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res tbody.filterOptions > tr > td {
+        display: block;
+    }
+    .samo_container #bron_info .timesSlider {
+        margin-top: 0;
+    }
+
+    .samo_container #bron_info .FREIGHTSINFO table.res#gdsGrid {
+        display: table;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res#gdsGrid > thead {
+        display: table-header-group;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res#gdsGrid > tbody {
+        display: table-row-group;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res#gdsGrid > tbody > tr {
+        display: table-row;
+    }
+    .samo_container #bron_info .FREIGHTSINFO table.res#gdsGrid > tbody > tr > td {
+        display: table-cell;
+    }
+
+    /* Select places */
+    .samo_container #bron_info [data-title]:hover:after {
+        left: initial;
+        right: 0;
+    }
+
+    .samo_container #bron_info .freights select,
+    .samo_container #bron_info .hotels select {
+        width: 100%;
+    }
+
+    .samo_container #bron_info .insures_container {
+        margin-bottom: 40px;
+    }
+
+    /* Tourists */
+    .samo_container #bron_info .peoples .tourist {
+        padding: 0;
+    }
+    .samo_container #bron_info .peoples .tourist fieldset {
+        float: none;
+        width: 100%;
+    }
+    .samo_container #bron_info .peoples .tourist table,
+    .samo_container #bron_info .peoples .tourist table tbody,
+    .samo_container #bron_info .peoples .tourist table tr,
+    .samo_container #bron_info .peoples .tourist table td {
+        display: block;
+        width: 100%;
+    }
+    .samo_container #bron_info .peoples .tourist table tr {
+        margin: 6px 0;
+    }
+    .samo_container #bron_info .peoples .tourist table td.left_column {
+        padding: 6px 0 !important;
+        height: auto;
+        text-align: left;
+    }
+    .samo_container #bron_info input.date {
+        width: 120px;
+    }
+    .samo_container button.Zebra_DatePicker_Icon {
+        right: 2px;
+        left: initial !important;
+    }
+
+    /* Claim info */
+    .samo_container #bron_info .left_block,
+    .samo_container #bron_info .left_block .panel {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .samo_container #bron_info .left_block .panel {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .samo_container #bron_info .CLAIMINFO fieldset .checklistbox {
+        height: auto;
+        max-height: 200px;
+    }
+
+    /* Price info */
+    .samo_container #bron_info .PRICEINFO,
+    .samo_container #bron_info .PRICEINFO fieldset,
+    .samo_container #bron_info .PRICEINFO .contacts,
+    .samo_container #bron_info .PRICEINFO .ORIGIN {
+        width: 100%;
+    }
+
+    /* Modal */
+    #modalContainer,
+    #logonContainer {
+        width: 100% !important;
+        margin: 0 !important;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        height: 100%;
+        transform: none;
+    }
+    #modalContainer div.modalTitle,
+    #logonContainer div.modalTitle {
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #modalContainer #basicModalContent,
+    #logonContainer #basicModalContent {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        max-height: initial;
+        height: 100%;
+    }
+    #modalContainer #basicModalContent #additional_insures {
+        height: auto;
+    }
+    #modalContainer table.res td {
+        min-height: 25px;
+        height: auto;
+    }
+
+    #modalContainer #ADDITIONAL_INSURES table.res,
+    #modalContainer #ADDITIONAL_INSURES table.res tbody {
+        width: 100%;
+    }
+    #modalContainer #ADDITIONAL_INSURES table.res .even,
+    #modalContainer #ADDITIONAL_INSURES table.res .odd {
+        border-bottom: 1px solid var(--row-border-color);
+    }
+    #modalContainer #ADDITIONAL_INSURES table.res .even td,
+    #modalContainer #ADDITIONAL_INSURES table.res .odd td {
+        background-color: var(--row-even-bgcolor);
+        border-color: transparent;
+    }
+    #modalContainer #ADDITIONAL_INSURES table.res tbody td {
+        display: flex;
+        align-items: center;
+    }
+    #modalContainer #ADDITIONAL_INSURES table.res tbody td:nth-child(1) {
+        flex: 1 0 100%;
+        padding-bottom: 5px;
+    }
+
+    /* Chat */
+    .samo_container #samo-notification-bar.open {
+        width: 100%;
+        max-height: 50px;
+        margin: 0;
+        left: 0;
+    }
+    .samo_container #messages-popup,
+    .samo_container #messages-popup.close,
+    .samo_container #messages-popup.open.close {
+        margin: 0;
+        z-index: -1;
+    }
+    .samo_container #messages-popup.open {
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        z-index: 1101;
+    }
+    .samo_container #messages-popup label {
+        height: auto;
+    }
+    .samo_container #messages-popup input:checked ~ .messages-container {
+        height: auto;
+    }
+    .samo_container #messages-popup .message-form textarea,
+    .samo_container #messages-popup .message-form select {
+        width: 100%;
+    }
+    .samo_container #messages-popup .message-new textarea {
+        height: 140px !important;
+    }
+    .samo_container #messages-popup .message-form button {
+        width: auto;
+    }
+    .samo_container #messages-popup .message-thread {
+        height: auto;
+        margin-top: 12px;
+        padding-top: 0;
+    }
+    .samo_container #messages-popup .message-thread .message-item {
+        width: 100%;
+        margin: 6px 0;
+    }
+    .samo_container #messages-popup .message-reply {
+        width: 100%;
+    }
+
+    .samo_container #bron_info .CLAIMINFO .claim_note_list {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .samo_container #bron_info .CLAIMINFO .claim_note_text {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .samo_container #bron_info .WITHBUYER .BUYERINFO {
+        grid-column-start: 3;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .samo_container #bron_info .CLAIMINFO fieldset textarea {
+        height: 11em;
+    }
+}
+
+/*
+    Overriding common.css styles
+*/
+.samo_container #bron_info select,
+.samo_container #bron_info textarea,
+.samo_container #bron_info .textinput,
+.samo_container #bron_info input.frm-value,
+.samo_container #bron_info input.frm-input {
+    margin: 2px 0;
+    padding: 6px 6px;
+    height: initial;
+    border-radius: 4px;
+}
+
+.samo_container #bron_info .checklistbox label {
+    padding: 2px 6px;
+    min-width: 150px;
+}
+.samo_container #bron_info .checklistbox input.addit {
+    margin: 2px 0;
+    padding: 0px 6px;
+    font-size: 1em;
+}
+
+#bron_info .chosen-container-single .chosen-single {
+    padding: 1px 6px;
+    margin: 2px 0;
+    height: initial;
+    border-radius: 4px;
+    line-height: 28px;
+}
+#bron_info .chosen-container-single .chosen-single div {
+    top: 45%;
+    height: 18px;
+    transform: translateY(-50%);
+}
+
+#bron_info span.exist_order_commiss {
+    display: none;
+}
+#bron_info .PAYMENT_MESSAGE {
+    white-space: pre-line;
+}
+#bron_info .FREIGHTINFO_PORT {
+    width: 200px;
+}
+#bron_info .FREIGHTINFO_FREIGHT {
+    text-transform: uppercase;
+    width: 150px;
+}
+#bron_info .FREIGHTINFO_FREIGHT_BACK {
+    text-transform: uppercase;
+    width: 150px;
+}
+#bron_info .FREIGHTINFO_TIME {
+    width: 50px;
+}
+#bron_info .FREIGHTINFO_TIME_BACK {
+    width: 50px;
+}
+.probel {
+    width: 100%;
+}
+
+.samo_container table.res .transferTypeInc td {
+    background-color: var(--row-odd-bgcolor);
+    border: none;
+    padding-right: 0px;
+}
+
+#bron_info .freight_setup_dates, #bron_info .seats-counter {
+    display: none;
+}
+
+#bron_info .seats-counter select.places {
+    width: 220px;
+}
+
+#bron_info .seats-counter .title {
+    width: 180px;
+    text-align: left;
+}
+
+#bron_info #freightsContainer ul.tariff-info {
+    margin: 10px 0;
+}
+
+#additional_services {
+    min-height: 200px;
+}
+
+#additional_services input[type="radio"], #additional_services_transport input[type="radio"] {
+    display: none;
+}
+#additional_services label.service, #additional_services_transport label.service {
+    font-weight: bold;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 22px;
+    cursor: pointer;
+    color: black;
+    line-height: 22px;
+    font-size: 13px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 1%, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eaeaea));
+    background: -webkit-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: -o-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: -ms-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 0px 2px 2px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#additional_services .services-container {
+    margin-top: -1px;
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    z-index: 10;
+    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+
+#additional_services:not(.collapse-disabled) input:checked ~ .services-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 375px;
+    -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+#additional_services:not(.collapse-disabled) label.service:hover:after {
+    content: ' ';
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    right: 13px;
+    top: 7px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA40lEQVQ4T2NkoBAwUqifgaYGMAYEBJQyMTFZMjIyFq9du/YeNtficgFjYGBgO1BDOVTTY6BBDtgMwWYASHMbUGMFso3///9/9PfvX4fNmzffRxZHN4AxKCioFai4EknRByBbAMTHZgiyARiagRqqgPqWA+kDQC/IYzMEbgAwwMqAgdUJsxmkecOGDaBwYADKKSAb8u/fv4dAtQZA+Q9wA4D+XglUGwa1Ba4ZZiCaIf+B4aG2adOmO3ADQkNDRX/9+tUPNPko0OTp2KIMZAhQvgsot3H9+vVLQWpompCISuXDwAUA/ZFzES+73+MAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+#additional_services:not(.collapse-disabled) input:checked + label.service:hover:after {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9ElEQVQ4T2NkoBAwUqifYZAZ4O3trfn169fnBw4c+IDDa4w+Pj56nJycd1evXv0FpAbuBV9f32QWFpY5////v//r1y/Hbdu2PUQzhNHf37+ZiYmp+v///5cfP35scfbs2W9wA/z9/TcyMTH5gTRhMQSuGWbor1+/tLZu3XodboC3t7cSKyvrAUZGRlk0Qx7BbIZp/vv3b+2mTZtaULwA4nh6eiqzs7PvRzaEgYFhKyMjYw5M8////+s2bNjQDONjRCO6IcjhgK4ZwwUwxdgMwaYZpwHo3kH2M3r04k2JDg4OApycnFLbt2+/hivJD7KkTE7OBAD/AHYRTDcdQQAAAABJRU5ErkJggg==');
+    cursor: default;
+}
+
+#additional_services:not(.collapse-disabled) div.collapse {
+    cursor: pointer;
+    height: 2em;
+    text-decoration: underline;
+}
+
+#additional_services.collapse-disabled .services-container {
+    height: auto !important;
+}
+
+#additional_services.collapse-disabled label.service:hover:after {
+    background-image: none !important;
+}
+
+#additional_services.collapse-disabled label.service {
+    cursor: default !important;
+}
+
+#ADDITIONAL_INSURES td li {
+    padding-left: 30px;
+}
+
+#bron_info .PRICEINFO .price_details .COMMISSIONS td.sub_tax {
+    padding-left: 20px;
+}
+
+#bron-info-link-to-page { position: fixed; //position: absolute; right: 5px; bottom: 5px; //top: 5px; width: 30px; min-height: 35px; //height: 70px; }
+#bron-info-link-to-page a { display: block; width: 30px; height: 30px; float: right; text-indent: 100%; white-space: nowrap; overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin-left: 5px; margin-top: 5px; opacity: 1; }
+#bron-info-link-to-page a:hover { opacity: 1; }
+#bron-info-link-to-page .external { background: url('../../pict/inline-help.png') 7px 7px no-repeat var(--table-header-bgcolor); }
+#bron-info-link-to-page .external:hover { background-color: #4493b3; }
+
+#freightsContainer a.external { display: block; width: 30px; height: 30px; float: right; text-indent: 100%; white-space: nowrap; overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin-left: 5px; margin-top: 5px; opacity: 1; }
+#freightsContainer a.external:hover { opacity: 1; }
+#freightsContainer .external { background: url('../../pict/inline-help.png') 7px 7px no-repeat var(--table-header-bgcolor); }
+#freightsContainer .external:hover { background-color: #4493b3; }
+
+.alternate_hotels {
+    width: 710px;
+}
+
+.bron-tournote {
+    width: 92%;
+}
+
+#freightsContainer.d-none {
+    display: none;
+}
+
+#bron_info .not-last-freight {
+    border-bottom-width: 0;
+    height: 15px;
+}
+
+.bron-contacts {
+    width: 65%;
+}
+
+.bron-contacts:first-child {
+    width: 35%;
+}
+
+.freight_setup_next {
+    width: 8%;
+}
+
+.frinfo-directonly {
+    width: 15%;
+}
+
+.frinfo-class {
+    width: 13%;
+}
+
+.frinfo-targetpoint {
+    width: 32%;
+}
+
+.frinfo-sourcepoint {
+    width: 32%;
+}
+
+#gdsGrid {
+    border-collapse: separate !important;
+}
+
+#gdsGrid thead{
+    position: sticky;
+    max-width: inherit;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.icon-compare {
+    background: url('../../pict/icons8-compare.png') center center no-repeat;
+    display: inline-block;
+    width: 25px;
+    cursor: pointer;
+}
+
+#bron_info .pernight_container {
+    width: 100%;
+    margin: 5px;
+    display: none;
+}
+
+#bron_info .pernight_container.visible {
+    display: block;
+}
+
+.time-out {
+    width: 70px;
+    white-space: normal !important;
+}
+
+.tourists_composition {
+    position: relative;
+    top: 2px;
+}
+
+.external-freight-rules {
+    max-width: 300px;
+}
+
+
+div:has(> button.additional_services) {
+    text-align: center;
+}
+
+.freights_service_container {
+    display: none;
+}
+
+.servicesTransport tr {
+    border-bottom: 1px solid grey;
+}
+
+.servicesTransport tr:nth-child(odd) {
+    background-color: var(--row-even-bgcolor);
+}
+
+.servicesTransport tr:nth-child(even) {
+    background-color: var(--row-odd-bgcolor);
+}
+
+tr.transport {
+    height: 40px;
+}
+
+td.transportName {
+    padding-left: 5px;
+}
+
+tr.servicesTransportTR {
+    height: 30px;
+}
+
+td.iconsServicesTransport {
+    width: 30px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+td.serviceTransportName {
+    padding-left: 15px;
+}
+
+.iconsServicesTransport > i {
+    cursor: pointer;
+}

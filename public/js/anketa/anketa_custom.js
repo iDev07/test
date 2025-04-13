@@ -1,0 +1,1 @@
+(function($){samo.samo=function(){var $module_container=$('#anketa');$module_container.data('anketa','samo');};})(samo.jQuery);

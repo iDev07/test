@@ -1,0 +1,1 @@
+'use strict';(function($){samo.sberbank=function(){samo.acquiring.work('sberbank');};})(samo.jQuery);

@@ -1,0 +1,8 @@
+#d_available_hotels .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#d_available_hotels td {
+    padding: 8px;
+}

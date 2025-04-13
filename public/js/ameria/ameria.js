@@ -1,0 +1,1 @@
+(function($){samo.ameria=function(){samo.acquiring.work('ameria');};})(samo.jQuery);

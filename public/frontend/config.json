@@ -1,0 +1,26 @@
+{
+  "default" : true,
+  "token": "",
+  "token_demo": "",
+  "api_url": "/export/default.php?",
+  "dev_api_url": "/export/default.php?",
+  "bron_url": "/bron?",
+  "map_token": "",
+  "interface_state": {
+    "languages": "ru,en,tr"
+  },
+  "initial_state": {
+	"STATEFROM": 2,
+    "DATEBEG":"20220506",
+    "CURRENCY": 2,
+	"NIGHTS_FROM": 5,
+    "TOURS": [157,158]
+  },
+  "links": {
+    "tickets": "/modern_search?samo_action=tickets",
+    "hotels": "/modern_search?samo_action=hotels",
+    "searchtour": "/modern_search?samo_action=searchtour",
+    "insures": "/modern_search?samo_action=insures",
+    "services": "/modern_search?samo_action=services"
+  }
+}

@@ -1,0 +1,1 @@
+(function($){samo.tinkoff=function(){samo.acquiring.work('tinkoff');};})(samo.jQuery);

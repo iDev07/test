@@ -1,0 +1,46 @@
+#recovery {
+    max-width: 360px;
+    margin: auto;
+}
+
+#recovery #search {
+    font-size: 13px;
+    width: 300px;
+    height: 34px;
+    line-height: 18px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-right: 0 !important;
+    padding-left: 10px;
+}
+
+#recovery .label {
+    text-align: left;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+#recovery .recovery-form {
+    margin: 180px auto auto;
+    color: #222;
+    width: 360px;
+    max-height: 400px;
+    font-size: 14px;
+    padding-bottom: 24px;
+}
+
+#recovery span.legend {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: left;
+    color: #366383;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+#recovery button {
+    width: 300px;
+}

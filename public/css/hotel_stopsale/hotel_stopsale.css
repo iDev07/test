@@ -1,0 +1,22 @@
+#hotel_stopsale {
+    width: var(--main-container-width);
+}
+.samo_container .resultset{
+    margin: auto;
+}
+
+#hotel_stopsale td.gray {
+    background-color: #eee;
+}
+#hotel_stopsale select{
+    width:270px;
+
+}
+
+.hs-townfrom, .hs-town, .hs-state, .hs-hotel {
+    width: 23%;
+}
+
+.hs-townfrom.title, .hs-town.title, .hs-state.title, .hs-hotel.title, .hs-empty, .hs-refresh {
+    width: 5%;
+}

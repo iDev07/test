@@ -1,0 +1,8 @@
+#d_freight_situation .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#d_freight_situation td {
+    padding: 8px;
+}

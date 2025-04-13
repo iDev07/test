@@ -1,0 +1,42 @@
+#currency.res.panel {
+    min-width: 200px;
+    max-width: 200px;
+}
+#currency thead th {
+    text-align: center;
+    background-color: var(--main-panel-bgcolor);
+    color: black;
+}
+#currency thead th.first {
+    width: 100px;
+}
+
+#currency .rate {
+    cursor: pointer;
+}
+
+#currency thead .rate:after {
+    opacity: 0.3;
+    content: '__';
+    color: transparent;
+    display: inline-block;
+    background-image: url('../../pict/history.svg');
+    background-repeat: no-repeat;
+}
+#currency thead .rate:hover:after {
+    opacity: 1;
+}
+
+#currency .rate-down:before {
+    content: '\2193';
+    color: red;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#currency .rate-up:before {
+    content: '\2191';
+    color: green;
+    display: inline-block;
+    font-weight: bold;
+}

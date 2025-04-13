@@ -1,0 +1,12 @@
+#schedule_doc {
+    margin: auto;
+    width: var(--main-container-width);
+}
+#schedule_doc .controls .panel th {
+    padding: 10px;
+}
+
+#schedule_doc select {
+    width: 180px;
+}
+

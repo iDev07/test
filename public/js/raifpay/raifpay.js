@@ -1,0 +1,2 @@
+(function($){samo.raifpay=function(){samo.acquiring.work('raifpay');samo.altform=function(params={}){let pageSdkUrl={};if(params.isTest){pageSdkUrl={url:'https://pay-test.raif.ru/pay/'};}
+const payment=new PaymentPageSdk(params.publicId,pageSdkUrl);payment.openPopup(params).then(function(){}).catch(function(){});};};})(samo.jQuery);

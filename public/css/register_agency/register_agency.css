@@ -1,0 +1,60 @@
+#register_agency {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#register_agency .std {
+    width: unset;
+    display: inline-block;
+    padding: 15px;
+}
+#icaptcha {
+    border-radius: 8px;
+}
+
+#register_agency label.required, #register_agency .register_by_inn {
+    font-weight: bold;
+}
+
+#register_agency div.label {
+    margin-top: -15px;
+}
+
+#register_agency .left_column {
+    width: 170px;
+}
+
+#register_agency .register_by_inn {
+    text-transform: capitalize;
+}
+
+#register_agency .error-liquidation {
+    display: none;
+}
+
+.address_data {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 999999;
+}
+
+.address_data ul{
+    margin: 4px;
+    cursor: pointer;
+}
+
+.address_data ul li{
+    padding: 5px;
+}
+
+.address_data ul li:hover {
+    background-color: #bbb;
+}
+
+.return_url_button {
+    display: inline-block;
+    margin: 5px !important;
+}

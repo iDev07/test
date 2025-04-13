@@ -1,0 +1,77 @@
+#money_transfer .controls {
+    width: var(--main-container-width);
+    margin: auto;
+}
+
+#money_transfer td {
+    padding: 8px;
+}
+
+#money_transfer input.summ {
+    margin: 0;
+}
+
+#money_transfer select.CURRENCY {
+    width: auto;
+    margin: 0 0 0 -3px;
+    border-radius: 0;
+    padding: 0 2px;
+    font-size: 13px;
+    line-height: initial;
+    height: auto;
+    border-left: none;
+}
+
+#money_transfer .result {
+    height: 25px;
+}
+
+#money_transfer .paymentsList tbody tr.highlight td {
+    background-color: InfoBackground;
+    -moz-transition: background 1.0s ease-in-out;
+    -ms-transition: background 1.0s ease-in-out;
+    transition: background 1.0s ease-in-out;
+}
+
+#money_transfer .claimFrom {
+    width: 180px;
+}
+#money_transfer .claimTo {
+    width: 180px;
+}
+
+#money_transfer .summ {
+    width: 180px;
+}
+
+#money_transfer .link.load.button{
+    width: 180px;
+}
+#money_transfer select.TYPE {
+    width: 180px !important;
+}
+#money_transfer .r {
+    width: 100px;
+}
+
+#money_transfer .left_side {
+    padding-top: 8px;
+    vertical-align: top;
+    width: 260px;
+}
+
+#money_transfer .right_side {
+    border-left: 1px solid #aaaaaa;
+    padding-left: 10px;
+    vertical-align: top;
+    display: none;
+}
+
+#money_transfer .right_side .rsSelectRow,
+#money_transfer .right_side .recipientNameRow,
+#money_transfer .right_side .bankAccountRow,
+#money_transfer .right_side .bikBankRow,
+#money_transfer .right_side .cardNumberRow,
+#money_transfer .right_side .bikBankSearchRow{
+    display: none;
+}

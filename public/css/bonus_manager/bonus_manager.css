@@ -1,0 +1,49 @@
+#bonus_manager {
+    margin: auto;
+    width: var(--main-container-width);
+}
+#bonus_manager fieldset legend {
+    display: block;
+}
+#bonus_manager legend{
+    text-align: left;
+}
+#bonus_manager_detail{
+    margin-top: 10px;
+}
+
+#pay_variant #bonus_manager {
+    width: 100% !important;
+}
+#bonus_manager fieldset.panel {
+    width: 100%;
+    box-sizing: border-box;
+}
+.samo_container table.bonus_manager_detail td.active {
+    background-color: #b4ddac;
+}
+
+.samo_container table.bonus_manager_detail .invalid td {
+    color: #999999;
+}
+
+select.currencies {
+    width: 70px;
+}
+
+.detail {
+    display: none;
+}
+
+input.bonus_value {
+    width: 100px !important;
+}
+
+.hide {
+    display: none;
+}
+
+.pay_hint {
+    position: relative;
+    top: 2px;
+}

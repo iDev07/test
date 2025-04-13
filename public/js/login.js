@@ -1,0 +1,10 @@
+(function($){const cookies=function(){this.get=function(name){let value=false;const cookie=document.cookie;if(cookie.length>0){if(cookie.match(new RegExp(name+'=([^;]*)','g'))){value=RegExp.$1;}}
+return value;};this.set=function(name,value,expire){if(!this.is_enabled()){return false;}
+const expireDate=new Date(+(new Date())+expire);document.cookie=name+'='+value+';expires='+expireDate.toGMTString()+';';return true;};this.remove=function(name){if(document.cookie){document.cookie=name+'='+this.get(name)+';expires=Thu, 01-Jan-1970 00:00:01 GMT;';return true;}
+return false;};this.is_enabled=function(){if(typeof navigator.cookieEnabled!='undefined'){return navigator.cookieEnabled;}
+this.set('testcookie','testvalue',10);if(!document.cookie){return false;}
+this.remove('testcookie');return true;};};$(function(){const cookie=new cookies();if(cookie.is_enabled()){const $login=$('#login');if($login.length){$login.get(0).focus();window.setTimeout(function(){$('.flash_message').fadeOut('slow');},3000);$('#loginForm').on('submit',function(e){$('#login,#passwd',this).each(function(){if(!$(this).val()){e.preventDefault();e.stopPropagation();$(this).addClass('error').get(0).focus();}else{$(this).removeClass('error');}});});}
+$(window).on('beforeunload',function(){$.event.trigger('ajaxStart');});}else{$('#loginForm input').prop('disabled',true);$('.cookie_help').css('display','block');}
+$('#recaptcha').on('click',samo.recaptcha);});$(function(){samo.idleTimeOut=+new Date();});$('#showpasswd').on('change',function(){if($(this).is(':checked')){$('#passwd').clone().attr('type','text').insertAfter('#passwd').prev().remove();}
+else{$('#passwd').clone().attr('type','password').insertAfter('#passwd').prev().remove();}})
+$(document).on('mousemove keydown DOMMouseScroll mousewheel mousedown ',function(){if((+new Date()-samo.idleTimeOut)>samo.idleTimer){location.href=location.href;}});})(samo.jQuery);

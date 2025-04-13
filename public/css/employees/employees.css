@@ -1,0 +1,8 @@
+#employees .partner_info {
+    margin: auto !important;
+    width: var(--main-container-width);
+}
+
+#employees .td_partpass_create {
+    text-align: center;
+}

@@ -1,0 +1,190 @@
+#claim_edit.railway_tickets .claim_edit_div_close,
+#claim_edit.railway_tickets .claim_edit_div_search,
+#claim_edit.railway_tickets .freight_setup_next div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#claim_edit.railway_tickets table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#claim_edit.railway_tickets td {
+    border-bottom-width: 0px;
+}
+
+#claim_edit.railway_tickets .FREIGHTSINFO {
+    width: 80%;
+    margin: auto;
+}
+
+#tblTownsFreight .freight_setup_dates,
+#tblTownsFreight .seats-counter,
+#claim_edit.railway_tickets .claim_edit_div_search {
+    display: none;
+}
+
+#claim_edit.railway_tickets .seats-counter select.places {
+    width: 220px;
+}
+
+#claim_edit.railway_tickets .seats-counter .title {
+    width: 180px;
+    text-align: left;
+}
+
+#claim_edit.railway_tickets .frinfo-targetpoint,
+#claim_edit.railway_tickets .frinfo-sourcepoint {
+    width: 50%;
+}
+
+#claim_edit.railway_tickets .frplacement.seats button.button {
+    font-weight: bold !important;
+}
+
+#claim_edit.railway_tickets .frplacement span.button {
+    display: inline-block;
+    background: url('../../pict/seat.empty.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+#claim_edit.railway_tickets .frplacement span.button.seats {
+    background: url('../../pict/seat.png') no-repeat;
+}
+
+#claim_edit.railway_tickets .freightTable tr td.frplacement span.button {
+    display: none;
+}
+
+#claim_edit.railway_tickets .freightTable tr.checked td.frplacement span.button {
+    display: table-cell;
+}
+
+/*progress-bar*/
+#claim_edit.railway_tickets .result-progress {
+    display: none;
+}
+#claim_edit.railway_tickets .progress-bar {
+    text-align: left;
+    height: 20px;
+    width: 90%;
+    margin: 3px auto 5px;
+    background: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#claim_edit.railway_tickets .progress-bar span {
+    display: inline-block;
+    height: 100%;
+    background-color: #777;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-transition: width .4s ease-in-out;
+    -moz-transition: width .4s ease-in-out;
+    -ms-transition: width .4s ease-in-out;
+    -o-transition: width .4s ease-in-out;
+    transition: width .4s ease-in-out;
+}
+
+#claim_edit.railway_tickets .blue span {
+    background-color: var(--table-header-bgcolor);
+}
+
+#claim_edit.railway_tickets .shine span {
+    position: relative;
+}
+
+#claim_edit.railway_tickets .shine span::after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-animation: animate-shine 2s ease-out infinite;
+    -moz-animation: animate-shine 2s ease-out infinite;
+}
+
+@-webkit-keyframes animate-shine {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+        width: 95%;
+    }
+}
+
+@-moz-keyframes animate-shine {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+        width: 95%;
+    }
+}
+/*progress-bar*/
+
+#claim_edit.railway_tickets .PRICEINFO {
+    clear: left;
+    float: none;
+    margin: auto;
+    width: 540px;
+}
+
+#claim_edit.railway_tickets .PRICEINFO {
+    margin-top: 10px !important;
+}
+
+#claim_edit.railway_tickets .PRICEINFO fieldset {
+    float: none;
+    width: 530px;
+}
+
+#claim_edit.railway_tickets .CLAIMPRICE {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#claim_edit.railway_tickets .PRICEINFO .price_details {
+    display: none;
+}
+
+#claim_edit.railway_tickets .buttons {
+    text-align: center;
+}
+
+#claim_edit.railway_tickets .tour_info .tourists td.place,
+#claim_edit.railway_tickets .tour_info .tourists td.title,
+#claim_edit.railway_tickets .tour_info .freight_setup_dates td {
+    padding-top: 5px;
+}
+
+.railway_tickets .freightsRes {
+    text-align: center;
+}

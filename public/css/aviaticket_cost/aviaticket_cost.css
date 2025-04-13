@@ -1,0 +1,15 @@
+#aviaticket_cost {
+    width: 640px;
+    margin: auto;
+    text-align: left;
+}
+
+#aviaticket_cost .buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+#aviaticket_cost .tourist {
+    width: 100%;
+}
+

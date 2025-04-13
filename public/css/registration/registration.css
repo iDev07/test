@@ -1,0 +1,41 @@
+#registration .control, #registration .password_prepare, #registration .post_password {
+    display: none;
+}
+#registration fieldset {
+    margin: auto;
+}
+#registration .panel table {
+    width: 100%;
+}
+#registration  fieldset div.row {
+    clear: both;
+    margin-bottom: 4px;
+}
+#registration .panel table td {
+    padding-bottom: 4px;
+}
+#registration .panel table .label {
+    width: 110px;
+}
+#registration input, #registration select, #registration .chosen-container {
+    margin-left: 10px;
+    width: 450px;
+}
+
+#registration input.sex {
+    width: auto;
+}
+
+#registration .container .resultset {
+    padding-left: 0;
+    padding-right: 0;
+}
+#registration .container .resultset .res {
+    width: 100%;
+}
+#registration td.load.button {
+    text-align: right;
+}
+#registration .registration-info {
+    text-align: center;
+}
