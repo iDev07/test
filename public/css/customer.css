@@ -1,4 +1,4 @@
-.hero-slider {
+#slider_dev .hero_slider_dev {
   position: relative;
   margin: 30px 0;
   overflow: hidden;
@@ -6,7 +6,7 @@
   height: 350px;
 }
 
-.slide {
+#slider_dev .slide_dev {
   position: absolute;
   top: 0;
   left: 100%;
@@ -20,30 +20,30 @@
   background: #f0f0f0;
 }
 
-.slide a {
+#slider_dev .slide_dev a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.slide img {
+#slider_dev .slide_dev img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* можно поменять на contain, если хочешь видеть всё изображение */
   border-radius: 8px;
 }
 
-.slide.active {
+#slider_dev .slide_dev.active {
   left: 0;
   z-index: 1;
 }
 
-.slide.prev {
+#slider_dev .slide_dev.prev_dev {
   left: -100%;
   z-index: 0;
 }
 
-.nav {
+#slider_dev .nav_dev {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -56,25 +56,29 @@
   color: #f0f0f0;
   transition: 0.3s ease;
 }
-.nav.prev:hover {
+#slider_dev .nav_dev.prev_dev:hover {
   backdrop-filter: blur(5px);
 }
-.nav.next:hover {
+#slider_dev .nav_dev.next_dev:hover {
   backdrop-filter: blur(5px);
 }
-.nav.prev {
-  left: 10px;
+#slider_dev .nav_dev.prev_dev {
+  border-radius: 0px 8px 8px 0px;
+  left: 0px;
 }
 
-.nav.next {
-  right: 10px;
+#slider_dev .nav_dev.next_dev {
+  border-radius: 8px 0px 0px 8px;
+  right: 0px;
 }
+
 @media (max-width: 768px) {
-  .hero-slider {
+  #slider_dev .hero_slider_dev {
     height: 220px;
   }
-
-  .nav {
+  #slider_dev .slide_dev img {
+  }
+  #slider_dev .nav_dev {
     font-size: 24px;
     padding: 8px 12px;
   }
