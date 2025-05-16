@@ -1,7 +1,140 @@
+/* CSS for the header */
+body {
+  background: url("https://img.freepik.com/premium-photo/closeup-sea-sand-beach-waves-surf-idyllic-nature-seaside-inspire-tropical-shore-seascape-horizon_663265-3586.jpg?semt=ais_hybrid&w=740");
+  /* background: linear-gradient(45deg, #f0811f, #ffffff); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+
+.samo_container.search_tour {
+  background: transparent;
+}
+#header .high-menu {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+  background: #fff;
+  /* backdrop-filter: blur(5px); */
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 1000;
+}
+#header .high-menu .logo {
+  display: flex;
+  justify-content: center;
+}
+#header a {
+  color: #000;
+}
+
+#header .menu ul ul {
+  padding: 0 !important;
+  /* background: transparent !important;
+  backdrop-filter: blur(5px) !important; */
+}
+#header .menu li:hover ul {
+  background-color: transparent !important;
+}
+#header .menu ul ul li {
+  transition: 0.3s ease;
+  background: #ffffff !important;
+  padding: 8px 15px;
+  z-index: 1000;
+}
+#header .menu ul ul li:hover {
+  background-color: #ffffff85 !important;
+  backdrop-filter: blur(5px) !important;
+}
+#header .menu ul ul li:hover a {
+  margin-left: 5px;
+}
+#header .menu ul ul li a {
+  transition: 0.3s ease;
+  background: transparent !important;
+}
+#header .menu ul li:hover {
+  z-index: 1000;
+}
+#header .currency-header {
+  grid-area: inherit;
+}
+#header .currency-header .currency {
+  background-color: transparent;
+}
+
+/* Search Panel */
+
+.search_tour .searchmodes .panel {
+  background-color: #fff5e780;
+  backdrop-filter: blur(5px);
+  margin-right: 3px;
+}
+.search_tour .panel {
+  background-color: #fff5e780;
+  backdrop-filter: blur(5px);
+  margin-right: 3px;
+}
+.search_tour .searchmodes .searchmode_not_selected a {
+  background-color: #fff;
+  color: #ff8517;
+}
+.search_tour .direction.panel {
+  background-color: #fff5e780;
+  backdrop-filter: blur(5px);
+  margin-right: 3px;
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 10px 0;
+  box-shadow: none;
+  box-shadow: 0 -4px 8px -4px hsl(0 0% 88%);
+}
+#search_tour .direction td {
+  padding: 10px 10px !important;
+}
+#search_tour .user_info {
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0 0% 88%);
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#search_tour .user_info .panel {
+  background-color: #fff5e780;
+  backdrop-filter: blur(5px);
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0 0% 88%);
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#search_tour .user_info td {
+  padding-bottom: 10px;
+}
+#search_tour .user_info .left_panel {
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom-left-radius: 8px;
+}
+
+#search_tour .user_info .right_panel {
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom-right-radius: 8px;
+}
+#search_tour .user_info .empty {
+  display: none;
+}
+
+.search_tour #slider_dev {
+}
+
 #slider_dev .hero_slider_dev {
   position: relative;
-  margin: 30px 0;
   overflow: hidden;
+  margin-bottom: 15px;
   width: 100%;
   height: 350px;
 }
@@ -82,4 +215,91 @@
     font-size: 24px;
     padding: 8px 12px;
   }
+}
+
+.chosen-container-single .chosen-single {
+  background-color: #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0 0% 88%);
+}
+#search_tour .checklistbox {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+}
+#search_tour .checklistbox::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+#search_tour .checklistbox::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+#search_tour .checklistbox::-webkit-scrollbar-thumb {
+  transition: background-color 0.3s ease;
+  background-color: #d7d7d7;
+  border-radius: 10px;
+  border: 2px solid transparent; /* creates padding inside */
+  background-clip: content-box;
+}
+#search_tour .checklistbox::-webkit-scrollbar-thumb:hover {
+  background-color: #ff8517;
+}
+/* Hide native checkbox */
+#search_tour input[type="checkbox"],
+.groupboxChildren input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* unchecked background */
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* Checked state - change bg and checkmark */
+#search_tour input[type="checkbox"]:checked,
+.groupboxChildren input[type="checkbox"]:checked {
+  background-color: #ff8517; /* ✅ background when checked */
+  border-color: #fff;
+  border: 1px solid transparent;
+}
+
+/* Checkmark (using ::after pseudo) */
+#search_tour input[type="checkbox"]:checked::after,
+.groupboxChildren input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 2px;
+  height: 8px;
+  border: 1px solid white; /* ✅ checkmark color */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+#search_tour .footer .load.right {
+  padding: 10px 25px;
+  background-color: #ff8517;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#search_tour .footer .load.right:hover {
+  background-color: #ffffff;
+  color: #ff8517;
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0 0% 88%);
 }
