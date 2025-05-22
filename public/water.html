@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ripple Background</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #0e1e25;
+      }
+
+      #canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: blur(8px);
+        pointer-events: none; /* Важно! */
+      }
+
+      #wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+
+      button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        background-color: #1abc9c;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="wrapper">
+      <button onclick="alert(`Worked`)">Click Me</button>
+    </div>
+
+    <script>
+      const rippleSettings = {
+        maxSize: 100,
+        animationSpeed: 5,
+        strokeColor: [148, 217, 255],
+      };
+
+      const canvasSettings = {
+        blur: 8,
+        ratio: 1,
+      };
+
+      function Coords(x, y) {
+        this.x = x || null;
+        this.y = y || null;
+      }
+
+      const Ripple = function (x, y, circleSize, ctx) {
+        this.position = new Coords(x, y);
+        this.circleSize = circleSize;
+        this.maxSize = rippleSettings.maxSize;
+        this.opacity = 1;
+        this.ctx = ctx;
+
+        this.strokeColor = `rgba(${rippleSettings.strokeColor[0]},
+        ${rippleSettings.strokeColor[1]},
+        ${rippleSettings.strokeColor[2]},
+        ${this.opacity})`;
+
+        this.animationSpeed = rippleSettings.animationSpeed;
+        this.opacityStep =
+          this.animationSpeed / (this.maxSize - circleSize) / 2;
+      };
+
+      Ripple.prototype = {
+        update: function () {
+          this.circleSize += this.animationSpeed;
+          this.opacity -= this.opacityStep;
+          this.strokeColor = `rgba(${rippleSettings.strokeColor[0]},
+          ${rippleSettings.strokeColor[1]},
+          ${rippleSettings.strokeColor[2]},
+          ${this.opacity})`;
+        },
+        draw: function () {
+          this.ctx.beginPath();
+          this.ctx.strokeStyle = this.strokeColor;
+          this.ctx.arc(
+            this.position.x,
+            this.position.y,
+            this.circleSize,
+            0,
+            2 * Math.PI
+          );
+          this.ctx.stroke();
+        },
+      };
+
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      const ripples = [];
+
+      const resizeCanvas = () => {
+        canvas.width = window.innerWidth * canvasSettings.ratio;
+        canvas.height = window.innerHeight * canvasSettings.ratio;
+        canvas.style.width = `${window.innerWidth}px`;
+        canvas.style.height = `${window.innerHeight}px`;
+      };
+
+      resizeCanvas();
+      window.addEventListener("resize", resizeCanvas);
+
+      // 👇 Навешиваем на document — не на canvas
+      document.addEventListener("mousemove", (e) => {
+        const target = document.elementFromPoint(e.clientX, e.clientY);
+
+        // ⛔️ Не рисовать ripple, если элемент не фон (canvas находится "под" всем)
+        if (target && target.id !== "wrapper" && target.tagName !== "BODY")
+          return;
+
+        const x = e.clientX * canvasSettings.ratio;
+        const y = e.clientY * canvasSettings.ratio;
+        ripples.unshift(new Ripple(x, y, 2, ctx));
+      });
+
+      const animation = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        for (let i = ripples.length - 1; i >= 0; i--) {
+          const r = ripples[i];
+          r.update();
+          r.draw();
+
+          if (r.opacity <= 0) {
+            ripples.splice(i, 1);
+          }
+        }
+
+        requestAnimationFrame(animation);
+      };
+
+      animation();
+    </script>
+  </body>
+</html>
