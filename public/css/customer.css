@@ -1,4 +1,24 @@
-/* CSS for the header */
+:root {
+  --main-panel-bgcolor: #f5f7fa; /* light neutral */
+  --table-header-bgcolor: #ff8a3d; /* softened orange */
+  --main-button-bgcolor: #ff8a3d;
+  --main-button-color: #ffffff;
+  --inactive-button-bgcolor: #dfe3e8;
+  --hover-button-bgcolor: #2d6a88; /* deeper but vibrant */
+  --delete-button-bgcolor: #ff5f6d;
+  --form-legend-bgcolor: #eaf1f7;
+  --form-legend-color: #305e73;
+  --link-active-color: #007355;
+  --link-hover-color: #ff7849;
+  --row-border-color: #c4ccd4;
+  --row-even-bgcolor: #ffffff;
+  --row-odd-bgcolor: #f0f4f8;
+  --main-font-family: "Verdana", sans-serif;
+  --menu-bgcolor: #ffffff;
+  --item-active-background: #f0f4f8;
+  --item-active-color: #2d2d2d;
+}
+
 body {
   background: url("https://img.freepik.com/premium-photo/closeup-sea-sand-beach-waves-surf-idyllic-nature-seaside-inspire-tropical-shore-seascape-horizon_663265-3586.jpg?semt=ais_hybrid&w=740");
   /* background: linear-gradient(45deg, #f0811f, #ffffff); */
@@ -7,9 +27,36 @@ body {
   background-position: fixed;
   background-attachment: fixed;
 }
+input:focus {
+  transition: 0.3s ease;
+  outline: none;
+  box-shadow: 0 0 5px #ff8a3d;
+}
+.samo_container {
+  background: inherit;
+}
+.samo_container table.res th,
+.samo_container table.res td {
+  padding: 10px 0 5px 5px;
+}
 
-.samo_container.search_tour {
-  background: transparent;
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: none;
+}
+#modalContainer div.modalTitle,
+#logonContainer div.modalTitle {
+  border-radius: 5px;
+}
+#modalContainer,
+#logonContainer {
+  border-radius: 5px;
+}
+
+#header {
+  margin-bottom: 25px;
+}
+#header .menu {
+  width: 100%;
 }
 #header .high-menu {
   display: grid;
@@ -67,13 +114,13 @@ body {
 /* Search Panel */
 
 .search_tour .searchmodes .panel {
-  background-color: #fff5e780;
+  background-color: #fff5e7b4;
   backdrop-filter: blur(5px);
   margin-right: 3px;
 }
 .search_tour .panel {
   background-color: #fff5e780;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   margin-right: 3px;
 }
 .search_tour .searchmodes .searchmode_not_selected a {
@@ -81,6 +128,8 @@ body {
   color: #ff8517;
 }
 .search_tour .direction.panel {
+  z-index: 10000;
+  position: relative;
   background-color: #fff5e780;
   backdrop-filter: blur(5px);
   margin-right: 3px;
@@ -145,7 +194,7 @@ body {
   left: 100%;
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 5px;
   transition: left 0.5s ease;
   display: flex;
   align-items: center;
@@ -163,7 +212,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover; /* можно поменять на contain, если хочешь видеть всё изображение */
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 #slider_dev .slide_dev.active {
@@ -227,7 +276,7 @@ body {
 }
 #search_tour .checklistbox {
   background-color: #ffffff;
-  border-radius: 8px;
+  border-radius: 5px;
   border: none;
   box-shadow: none;
 }
@@ -302,4 +351,48 @@ body {
   color: #ff8517;
   box-shadow: none;
   box-shadow: 0 4px 8px -4px hsl(0 0% 88%);
+}
+
+/* Results Section */
+
+#search_tour .resultset table.res {
+  border-collapse: separate;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#search_tour table.res .even td,
+.samo_container .even {
+  background-color: #fff5e7c0;
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0, 0%, 100%);
+  backdrop-filter: blur(5px);
+}
+#search_tour table.res .odd td,
+.samo_container .odd {
+  background-color: #ffffff;
+  box-shadow: none;
+  box-shadow: 0 4px 8px -4px hsl(0, 0%, 88%);
+  backdrop-filter: blur(5px);
+}
+
+html,
+body,
+#canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #26b4f4 !important;
+}
+#wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#menu {
+  width: 100%;
 }

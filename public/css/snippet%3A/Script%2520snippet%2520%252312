@@ -1,57 +1,4 @@
-const slider_dev = document.querySelector(".hero_slider_dev");
-const slides_dev = document.querySelectorAll(".slide_dev");
-const prev_devBtn = document.querySelector(".nav_dev.prev_dev");
-const next_devBtn = document.querySelector(".nav_dev.next_dev");
-
-let currentIndex_dev = 0;
-let startX_dev = 0;
-let isDragging_dev = false;
-
-function showSlide(index) {
-  slides_dev.forEach((slide, i) => {
-    slide.classList.remove("active", "prev_dev");
-    if (i === index) {
-      slide.classList.add("active");
-    } else if (i === index - 1) {
-      slide.classList.add("prev_dev");
-    }
-  });
-}
-
-prev_devBtn.addEventListener("click", () => {
-  currentIndex_dev =
-    (currentIndex_dev - 1 + slides_dev.length) % slides_dev.length;
-  showSlide(currentIndex_dev);
-});
-
-next_devBtn.addEventListener("click", () => {
-  currentIndex_dev = (currentIndex_dev + 1) % slides_dev.length;
-  showSlide(currentIndex_dev);
-});
-
-slider_dev.addEventListener("mousedown", (e) => {
-  isDragging_dev = true;
-  startX_dev = e.clientX;
-});
-
-slider_dev.addEventListener("mouseup", (e) => {
-  if (!isDragging_dev) return;
-  isDragging_dev = false;
-  const diff = e.clientX - startX_dev;
-
-  if (diff > 50) {
-    currentIndex_dev =
-      (currentIndex_dev - 1 + slides_dev.length) % slides_dev.length;
-  } else if (diff < -50) {
-    currentIndex_dev = (currentIndex_dev + 1) % slides_dev.length;
-  }
-
-  showSlide(currentIndex_dev);
-});
-
-slider_dev.addEventListener("mouseleave", () => {
-  isDragging_dev = false;
-});
+const css = document.createElement("link"); css.rel = "stylesheet"; css.href = "http://127.0.0.1:5500/public/css/customer.css"; document.head.appendChild(css);
 
 (function (jQuery) {
   samo.page_ready = false;
@@ -86,7 +33,23 @@ slider_dev.addEventListener("mouseleave", () => {
         if (i === index) {
           slide.classList.add("active");
         } else if (i === index - 1) {
-          slide.classList.add("prev_dev");
+          slide.cla
+            html, body, #canvas {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+   
+    #wrapper {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    #menu {
+      width: 100%;
+    }ssList.add("prev_dev");
         }
       });
     }
@@ -151,6 +114,8 @@ slider_dev.addEventListener("mouseleave", () => {
     return;
   };
 })(samo.jQuery);
+
+
 const rippleSettings = {
   maxSize: 100,
   animationSpeed: 5,
@@ -179,7 +144,7 @@ const Ripple = function Ripple(x, y, circleSize, ctx) {
     ${this.opacity})`;
 
   this.animationSpeed = rippleSettings.animationSpeed;
-  this.opacityStep = this.animationSpeed / (this.maxSize - circleSize) / 2;
+  this.opacityStep = (this.animationSpeed / (this.maxSize - circleSize)) / 2;
 };
 
 Ripple.prototype = {
@@ -194,13 +159,8 @@ Ripple.prototype = {
   draw: function draw() {
     this.ctx.beginPath();
     this.ctx.strokeStyle = this.strokeColor;
-    this.ctx.arc(
-      this.position.x,
-      this.position.y,
-      this.circleSize,
-      0,
-      2 * Math.PI
-    );
+    this.ctx.arc(this.position.x, this.position.y, this.circleSize, 0,
+      2 * Math.PI);
     this.ctx.stroke();
   },
   setStatus: function setStatus(status) {
@@ -208,14 +168,14 @@ Ripple.prototype = {
   },
 };
 
-const canvas = document.querySelector("#canvas");
-const ctx = canvas.getContext("2d");
+const canvas = document.querySelector('#canvas');
+const ctx = canvas.getContext('2d');
 const ripples = [];
 
 const height = document.body.clientHeight;
 const width = document.body.clientWidth;
 
-const rippleStartStatus = "start";
+const rippleStartStatus = 'start';
 
 const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
 
@@ -232,11 +192,11 @@ let animationFrame;
 // Add GUI settings
 const addGuiSettings = () => {
   const gui = new dat.GUI();
-  gui.add(rippleSettings, "maxSize", 0, 1000).step(1);
-  gui.add(rippleSettings, "animationSpeed", 1, 30).step(1);
-  gui.addColor(rippleSettings, "strokeColor");
+  gui.add(rippleSettings, 'maxSize', 0, 1000).step(1);
+  gui.add(rippleSettings, 'animationSpeed', 1, 30).step(1);
+  gui.addColor(rippleSettings, 'strokeColor');
 
-  const blur = gui.add(canvasSettings, "blur", 0, 20).step(1);
+  const blur = gui.add(canvasSettings, 'blur', 0, 20).step(1);
   blur.onChange((value) => {
     canvas.style.filter = `blur(${value}px)`;
   });
@@ -271,4 +231,4 @@ const animation = () => {
 };
 
 animation();
-canvas.addEventListener("mousemove", canvasMouseOver);
+canvas.addEventListener('mousemove', canvasMouseOver);

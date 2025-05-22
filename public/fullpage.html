@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Fullscreen Images</title>
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .swiper {
+        height: 100vh;
+        width: 100%;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      .swiper-slide img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+      }
+
+      .swiper-wrapper {
+        transition-timing-function: ease-in-out !important;
+      }
+
+      .swiper-pagination {
+        color: white !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper vertical-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="image_2.png" alt="Nature" />
+        </div>
+        <div class="swiper-slide">
+          <img src="image_1.png" alt="City" />
+        </div>
+        <div class="swiper-slide">
+          <img src="image_2.png" alt="Mountain" />
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      new Swiper(".vertical-swiper", {
+        direction: "vertical",
+        speed: 800,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
